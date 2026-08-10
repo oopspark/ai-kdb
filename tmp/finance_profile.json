@@ -1,0 +1,1296 @@
+{
+  "국내채권": {
+    "file": "국내채권_데이터.csv",
+    "rows": 42394,
+    "columns": 40,
+    "lowest_fill_rates": [
+      [
+        "AFTER_TAX_YIELD",
+        2.08
+      ],
+      [
+        "AVG_ANNUAL_TAX_YIELD",
+        2.08
+      ],
+      [
+        "BUYABLE_QUANTITY",
+        2.08
+      ],
+      [
+        "BUY_YIELD",
+        2.08
+      ],
+      [
+        "CORP_AFTER_TAX_YIELD",
+        2.08
+      ],
+      [
+        "CORP_PRETAX_YIELD",
+        2.08
+      ],
+      [
+        "DEPO_EQUIV_YIELD_154",
+        2.08
+      ],
+      [
+        "PREF_TAX_YIELD",
+        2.08
+      ],
+      [
+        "CRD_GRD",
+        58.38
+      ],
+      [
+        "PD_EVCO_CRD_GRD",
+        58.89
+      ],
+      [
+        "CRD_GRD_DT",
+        65.02
+      ],
+      [
+        "COV",
+        68.45
+      ]
+    ],
+    "selected_columns": {
+      "BD_KND": {
+        "fill_rate": 97.82,
+        "top_values": [
+          [
+            "일반회사채",
+            13998
+          ],
+          [
+            "할부금융채",
+            4677
+          ],
+          [
+            "일반특수법인채",
+            3019
+          ],
+          [
+            "유동화회사채",
+            2798
+          ],
+          [
+            "Conduit회사채",
+            2792
+          ],
+          [
+            "신용카드채",
+            2520
+          ],
+          [
+            "특수은행채",
+            2398
+          ],
+          [
+            "MBS",
+            2159
+          ]
+        ],
+        "distinct": 39
+      },
+      "STD_PD_MCLS_NM": {
+        "fill_rate": 100.0,
+        "top_values": [
+          [
+            "회사채",
+            31447
+          ],
+          [
+            "특수채",
+            8755
+          ],
+          [
+            "국공채",
+            2137
+          ],
+          [
+            "개인투자용국채",
+            49
+          ],
+          [
+            "외화채권-회사채",
+            5
+          ],
+          [
+            "외화채권-금융채",
+            1
+          ]
+        ],
+        "distinct": 6
+      },
+      "STD_PD_SCLS_NM": {
+        "fill_rate": 99.97,
+        "top_values": [
+          [
+            "일반사채",
+            30958
+          ],
+          [
+            "공사채",
+            5386
+          ],
+          [
+            "특수은행채",
+            2436
+          ],
+          [
+            "지역개발",
+            1266
+          ],
+          [
+            "은행채",
+            1247
+          ],
+          [
+            "국고채",
+            312
+          ],
+          [
+            "도시철도",
+            240
+          ],
+          [
+            "국민주택",
+            147
+          ]
+        ],
+        "distinct": 16
+      },
+      "PD_EVCO_CRD_GRD": {
+        "fill_rate": 58.89,
+        "top_values": [
+          [
+            "AAA, AAA, AAA",
+            6427
+          ],
+          [
+            "AA-, AA-, AA-",
+            4118
+          ],
+          [
+            "AAA, AAA",
+            4065
+          ],
+          [
+            "AA+, AA+, AA+",
+            2533
+          ],
+          [
+            "AAA",
+            1745
+          ],
+          [
+            "AA-, AA-",
+            759
+          ],
+          [
+            "AA, AA",
+            732
+          ],
+          [
+            "AA, AA, AA",
+            695
+          ]
+        ],
+        "distinct": 100
+      },
+      "PD_RISK_GCD": {
+        "fill_rate": 100.0,
+        "numeric": {
+          "count": 42394,
+          "min": 0.0,
+          "median": 5.0,
+          "max": 6.0
+        }
+      },
+      "CURR_CD": {
+        "fill_rate": 100.0,
+        "top_values": [
+          [
+            "KRW",
+            42372
+          ],
+          [
+            "USD",
+            19
+          ],
+          [
+            "EUR",
+            1
+          ],
+          [
+            "JPY",
+            1
+          ],
+          [
+            "000",
+            1
+          ]
+        ],
+        "distinct": 5
+      },
+      "BUY_YIELD": {
+        "fill_rate": 2.08,
+        "numeric": {
+          "count": 881,
+          "min": 1.705,
+          "median": 3.16,
+          "max": 5.57
+        }
+      },
+      "AFTER_TAX_YIELD": {
+        "fill_rate": 2.08,
+        "numeric": {
+          "count": 881,
+          "min": -1.1514,
+          "median": 2.8367,
+          "max": 6.0847
+        }
+      },
+      "REMAINING_DAYS": {
+        "fill_rate": 74.89,
+        "numeric": {
+          "count": 31749,
+          "min": 0.0,
+          "median": 441.0,
+          "max": 20920.0
+        }
+      },
+      "DUR": {
+        "fill_rate": 68.45,
+        "numeric": {
+          "count": 29018,
+          "min": 0.0,
+          "median": 0.915,
+          "max": 99.0
+        }
+      },
+      "EVAL_PRICE": {
+        "fill_rate": 75.06,
+        "numeric": {
+          "count": 31823,
+          "min": 0.0,
+          "median": 10029.92,
+          "max": 414569.54829425
+        }
+      }
+    }
+  },
+  "국내ETF": {
+    "file": "국내ETF_데이터.csv",
+    "rows": 1734,
+    "columns": 73,
+    "lowest_fill_rates": [
+      [
+        "nru_mkt_diff_rt",
+        0.0
+      ],
+      [
+        "nru_mkt_inav",
+        0.0
+      ],
+      [
+        "pd_dvid_cycl",
+        0.0
+      ],
+      [
+        "pd_sect_nm",
+        0.0
+      ],
+      [
+        "ru_mkt_price",
+        0.0
+      ],
+      [
+        "ru_mkt_volume",
+        0.0
+      ],
+      [
+        "cu_base_index",
+        3.34
+      ],
+      [
+        "cu_charge_rt",
+        12.51
+      ],
+      [
+        "du_er_1y",
+        79.41
+      ],
+      [
+        "du_last_aum",
+        83.79
+      ],
+      [
+        "du_er_6m",
+        85.12
+      ],
+      [
+        "du_er_ytd",
+        85.18
+      ]
+    ],
+    "selected_columns": {
+      "cu_base_index": {
+        "fill_rate": 3.34,
+        "top_values": [
+          [
+            "종합채권 3개월~1년",
+            14
+          ],
+          [
+            "KOSPI200",
+            9
+          ],
+          [
+            "MSCI ACWI",
+            6
+          ],
+          [
+            "종합채권 1~2년",
+            6
+          ],
+          [
+            "MSCI NORTH AMERICA",
+            4
+          ],
+          [
+            "MSCI ACWI CR 50% + 종합채권01Y 50%",
+            3
+          ],
+          [
+            "MSCI ACWI Information Technology",
+            2
+          ],
+          [
+            "KAP CD 6개월  90%",
+            2
+          ]
+        ],
+        "distinct": 19
+      },
+      "cu_charge_rt": {
+        "fill_rate": 12.51,
+        "numeric": {
+          "count": 217,
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.64
+        }
+      },
+      "cu_fund_mgmt_co": {
+        "fill_rate": 100.0,
+        "top_values": [
+          [
+            "삼성",
+            224
+          ],
+          [
+            "미래에셋",
+            193
+          ],
+          [
+            "KB",
+            147
+          ],
+          [
+            "한국투자",
+            114
+          ],
+          [
+            "메리츠증권 주식회사",
+            92
+          ],
+          [
+            "한화",
+            86
+          ],
+          [
+            "신한",
+            80
+          ],
+          [
+            "키움",
+            77
+          ]
+        ],
+        "distinct": 97
+      },
+      "cu_lev_fector": {
+        "fill_rate": 89.45,
+        "numeric": {
+          "count": 1551,
+          "min": -3.0,
+          "median": 1.0,
+          "max": 3.0
+        }
+      },
+      "du_er_1d": {
+        "fill_rate": 90.08,
+        "numeric": {
+          "count": 1562,
+          "min": -18.11,
+          "median": 1.29,
+          "max": 22.43
+        }
+      },
+      "du_er_1m": {
+        "fill_rate": 88.81,
+        "numeric": {
+          "count": 1540,
+          "min": -100.0,
+          "median": 0.61,
+          "max": 50.76
+        }
+      },
+      "du_er_1y": {
+        "fill_rate": 79.41,
+        "numeric": {
+          "count": 1377,
+          "min": -100.0,
+          "median": 23.02,
+          "max": 2738.95
+        }
+      },
+      "du_er_ytd": {
+        "fill_rate": 85.18,
+        "numeric": {
+          "count": 1477,
+          "min": -100.0,
+          "median": 8.01,
+          "max": 701.69
+        }
+      },
+      "du_last_aum": {
+        "fill_rate": 83.79,
+        "numeric": {
+          "count": 1453,
+          "min": 0.0,
+          "median": 25352727300.0,
+          "max": 28359162742500.0
+        }
+      },
+      "pd_pen_risk_nm": {
+        "fill_rate": 100.0,
+        "top_values": [
+          [
+            "위험자산",
+            788
+          ],
+          [
+            "N",
+            732
+          ],
+          [
+            "안전자산",
+            214
+          ]
+        ],
+        "distinct": 3
+      },
+      "pd_pen_tr_yn": {
+        "fill_rate": 100.0,
+        "top_values": [
+          [
+            "Y",
+            1002
+          ],
+          [
+            "N",
+            732
+          ]
+        ],
+        "distinct": 2
+      },
+      "pd_risk_nm": {
+        "fill_rate": 100.0,
+        "top_values": [
+          [
+            "매우높은위험(1등급)",
+            761
+          ],
+          [
+            "높은위험(2등급)",
+            667
+          ],
+          [
+            "낮은위험(5등급)",
+            115
+          ],
+          [
+            "보통위험(4등급)",
+            86
+          ],
+          [
+            "다소높은위험(3등급)",
+            84
+          ],
+          [
+            "매우낮은위험(6등급)",
+            21
+          ]
+        ],
+        "distinct": 6
+      },
+      "pd_sale_yn": {
+        "fill_rate": 100.0,
+        "numeric": {
+          "count": 1734,
+          "min": 0.0,
+          "median": 1.0,
+          "max": 1.0
+        }
+      },
+      "pd_sect_nm": {
+        "fill_rate": 0.0,
+        "top_values": [],
+        "distinct": 0
+      },
+      "wu_core_yn": {
+        "fill_rate": 100.0,
+        "top_values": [
+          [
+            "N",
+            1646
+          ],
+          [
+            "Y",
+            88
+          ]
+        ],
+        "distinct": 2
+      },
+      "wu_inv_ast_type": {
+        "fill_rate": 100.0,
+        "top_values": [
+          [
+            "주식",
+            1069
+          ],
+          [
+            "채권",
+            261
+          ],
+          [
+            "원자재",
+            207
+          ],
+          [
+            "혼합자산",
+            78
+          ],
+          [
+            "단기자금",
+            42
+          ],
+          [
+            "통화",
+            41
+          ],
+          [
+            "부동산",
+            18
+          ],
+          [
+            "기타",
+            18
+          ]
+        ],
+        "distinct": 8
+      },
+      "wu_inv_rgn": {
+        "fill_rate": 100.0,
+        "top_values": [
+          [
+            "국내",
+            1036
+          ],
+          [
+            "미국",
+            453
+          ],
+          [
+            "글로벌",
+            76
+          ],
+          [
+            "중국",
+            63
+          ],
+          [
+            "아시아",
+            33
+          ],
+          [
+            "일본",
+            25
+          ],
+          [
+            "인도",
+            19
+          ],
+          [
+            "남미/북미",
+            12
+          ]
+        ],
+        "distinct": 11
+      }
+    }
+  },
+  "해외ETF": {
+    "file": "해외ETF_데이터.csv",
+    "rows": 5646,
+    "columns": 49,
+    "lowest_fill_rates": [
+      [
+        "cu_lev_fector",
+        0.0
+      ],
+      [
+        "du_diff_rt",
+        0.05
+      ],
+      [
+        "cu_etn_yn",
+        1.04
+      ],
+      [
+        "wu_core_yn",
+        1.82
+      ],
+      [
+        "cu_inverse_short_yn",
+        3.03
+      ],
+      [
+        "du_last_nav",
+        12.08
+      ],
+      [
+        "cu_index_repl_mthd",
+        41.8
+      ],
+      [
+        "cu_index_tracking_yn",
+        41.8
+      ],
+      [
+        "du_er_1d",
+        95.43
+      ],
+      [
+        "du_last_aum",
+        96.69
+      ],
+      [
+        "pd_us_cik",
+        99.77
+      ],
+      [
+        "du_base_dt_match_yn",
+        99.82
+      ]
+    ],
+    "selected_columns": {
+      "cu_base_index": {
+        "fill_rate": 99.86,
+        "top_values": [
+          [
+            "Index is not provided by Management Company",
+            1984
+          ],
+          [
+            "Index is not available on Lipper Database",
+            721
+          ],
+          [
+            "S&P 500 TR",
+            335
+          ],
+          [
+            "Bloomberg U.S. Aggregate Bond TR",
+            89
+          ],
+          [
+            "S&P 500 CR",
+            51
+          ],
+          [
+            "Russell 1000 Growth TR",
+            35
+          ],
+          [
+            "Russell 1000 Value TR",
+            34
+          ],
+          [
+            "MSCI EAFE NR USD",
+            28
+          ]
+        ],
+        "distinct": 1733
+      },
+      "cu_charge_rt": {
+        "fill_rate": 100.0,
+        "numeric": {
+          "count": 5646,
+          "min": 0.0,
+          "median": 0.49,
+          "max": 2.5
+        }
+      },
+      "cu_fund_mgmt_co": {
+        "fill_rate": 99.86,
+        "top_values": [
+          [
+            "BlackRock Fund Advisors",
+            497
+          ],
+          [
+            "First Trust Advisors LP",
+            316
+          ],
+          [
+            "Tidal Investments LLC",
+            298
+          ],
+          [
+            "Invesco Capital Management LLC",
+            260
+          ],
+          [
+            "Innovator Capital Management LLC",
+            185
+          ],
+          [
+            "SSGA Funds Management Inc",
+            175
+          ],
+          [
+            "ProShare Advisors LLC",
+            167
+          ],
+          [
+            "Rafferty Asset Management LLC",
+            138
+          ]
+        ],
+        "distinct": 372
+      },
+      "cu_index_repl_mthd": {
+        "fill_rate": 41.8,
+        "top_values": [
+          [
+            "Optimized",
+            1802
+          ],
+          [
+            "Swap",
+            289
+          ],
+          [
+            "Full",
+            263
+          ],
+          [
+            "Other",
+            6
+          ]
+        ],
+        "distinct": 4
+      },
+      "cu_index_tracking_yn": {
+        "fill_rate": 41.8,
+        "top_values": [
+          [
+            "Y",
+            2360
+          ]
+        ],
+        "distinct": 1
+      },
+      "cu_lev_fector": {
+        "fill_rate": 0.0,
+        "top_values": [],
+        "distinct": 0
+      },
+      "du_er_1d": {
+        "fill_rate": 95.43,
+        "numeric": {
+          "count": 5388,
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.0
+        }
+      },
+      "du_last_aum": {
+        "fill_rate": 96.69,
+        "numeric": {
+          "count": 5459,
+          "min": 0.0,
+          "median": 90370000.0,
+          "max": 995484630000.0
+        }
+      },
+      "pd_exg_mkt_cd": {
+        "fill_rate": 100.0,
+        "top_values": [
+          [
+            "AMX",
+            4241
+          ],
+          [
+            "NAS",
+            1296
+          ],
+          [
+            "NYS",
+            78
+          ],
+          [
+            "102",
+            22
+          ],
+          [
+            "101",
+            9
+          ]
+        ],
+        "distinct": 5
+      },
+      "pd_trd_ccy": {
+        "fill_rate": 100.0,
+        "top_values": [
+          [
+            "USD",
+            5646
+          ]
+        ],
+        "distinct": 1
+      },
+      "pd_sale_yn": {
+        "fill_rate": 99.82,
+        "numeric": {
+          "count": 5636,
+          "min": 1.0,
+          "median": 1.0,
+          "max": 1.0
+        }
+      },
+      "wu_core_yn": {
+        "fill_rate": 1.82,
+        "top_values": [
+          [
+            "N",
+            103
+          ]
+        ],
+        "distinct": 1
+      },
+      "wu_inv_ast_type": {
+        "fill_rate": 99.86,
+        "top_values": [
+          [
+            "Equity",
+            2500
+          ],
+          [
+            "Alternatives",
+            1800
+          ],
+          [
+            "Bond",
+            1084
+          ],
+          [
+            "Mixed Assets",
+            138
+          ],
+          [
+            "Commodity",
+            107
+          ],
+          [
+            "Money Market",
+            9
+          ]
+        ],
+        "distinct": 6
+      },
+      "wu_inv_rgn": {
+        "fill_rate": 99.86,
+        "top_values": [
+          [
+            "United States of America",
+            4196
+          ],
+          [
+            "Global",
+            718
+          ],
+          [
+            "Global Ex US",
+            303
+          ],
+          [
+            "Global Emerging Markets",
+            175
+          ],
+          [
+            "China",
+            46
+          ],
+          [
+            "Europe",
+            41
+          ],
+          [
+            "Japan",
+            25
+          ],
+          [
+            "India",
+            24
+          ]
+        ],
+        "distinct": 59
+      }
+    }
+  },
+  "공모펀드": {
+    "file": "공모펀드_데이터.csv",
+    "rows": 95619,
+    "columns": 45,
+    "lowest_fill_rates": [
+      [
+        "itm_eabrv_nm",
+        0.18
+      ],
+      [
+        "fd_yr5_ern_r",
+        53.17
+      ],
+      [
+        "fd_yr3_ern_r",
+        58.37
+      ],
+      [
+        "fd_yr2_ern_r",
+        60.79
+      ],
+      [
+        "fd_mm18_ern_r",
+        66.1
+      ],
+      [
+        "fd_yr1_ern_r",
+        67.38
+      ],
+      [
+        "exchdg_yn",
+        68.88
+      ],
+      [
+        "fd_mm6_ern_r",
+        70.25
+      ],
+      [
+        "fd_mm3_ern_r",
+        71.68
+      ],
+      [
+        "fd_mm1_ern_r",
+        72.36
+      ],
+      [
+        "fd_wk1_ern_r",
+        72.63
+      ],
+      [
+        "zrin_fd_ivst_risk_grd_nm",
+        80.74
+      ]
+    ],
+    "selected_columns": {
+      "curr_cd": {
+        "fill_rate": 100.0,
+        "top_values": [
+          [
+            "KRW",
+            95046
+          ],
+          [
+            "USD",
+            572
+          ]
+        ],
+        "distinct": 2
+      },
+      "exchdg_yn": {
+        "fill_rate": 68.88,
+        "top_values": [
+          [
+            "Y",
+            44987
+          ],
+          [
+            "N",
+            20870
+          ],
+          [
+            "00080008",
+            1
+          ]
+        ],
+        "distinct": 3
+      },
+      "fd_ivst_rgn_desc": {
+        "fill_rate": 99.93,
+        "top_values": [
+          [
+            "글로벌",
+            42875
+          ],
+          [
+            "국내",
+            33223
+          ],
+          [
+            "아시아",
+            10265
+          ],
+          [
+            "남미/북미",
+            4984
+          ],
+          [
+            "이머징/브릭스",
+            2261
+          ],
+          [
+            "유럽",
+            1846
+          ],
+          [
+            "중동/아프리카",
+            99
+          ]
+        ],
+        "distinct": 7
+      },
+      "fd_nast_suma": {
+        "fill_rate": 86.89,
+        "numeric": {
+          "count": 83081,
+          "min": 0.0,
+          "median": 28247840372.0,
+          "max": 28359162282520.0
+        }
+      },
+      "fd_wk1_ern_r": {
+        "fill_rate": 72.63,
+        "numeric": {
+          "count": 69452,
+          "min": -60.92,
+          "median": 0.34,
+          "max": 26.59
+        }
+      },
+      "fd_mm1_ern_r": {
+        "fill_rate": 72.36,
+        "numeric": {
+          "count": 69190,
+          "min": -63.11,
+          "median": 0.22,
+          "max": 15.65
+        }
+      },
+      "fd_yr1_ern_r": {
+        "fill_rate": 67.38,
+        "numeric": {
+          "count": 64426,
+          "min": -92.57,
+          "median": 23.37,
+          "max": 975.1
+        }
+      },
+      "fd_yr3_ern_r": {
+        "fill_rate": 58.37,
+        "numeric": {
+          "count": 55813,
+          "min": -4381.56,
+          "median": 47.44,
+          "max": 1142.57
+        }
+      },
+      "fd_yr5_ern_r": {
+        "fill_rate": 53.17,
+        "numeric": {
+          "count": 50837,
+          "min": -4254.75,
+          "median": 34.28,
+          "max": 611.55
+        }
+      },
+      "or_attr_desc": {
+        "fill_rate": 99.93,
+        "top_values": [
+          [
+            "주식형",
+            36338
+          ],
+          [
+            "재간접",
+            30243
+          ],
+          [
+            "채권혼합",
+            8964
+          ],
+          [
+            "채권형",
+            8344
+          ],
+          [
+            "06",
+            5436
+          ],
+          [
+            "주식혼합",
+            2782
+          ],
+          [
+            "MMF",
+            1532
+          ],
+          [
+            "혼합자산",
+            1424
+          ]
+        ],
+        "distinct": 11
+      },
+      "ovrs_fd_desc": {
+        "fill_rate": 99.93,
+        "top_values": [
+          [
+            "해외",
+            51628
+          ],
+          [
+            "국내",
+            33107
+          ],
+          [
+            "국내외혼합",
+            10818
+          ]
+        ],
+        "distinct": 3
+      },
+      "pers_corp_desc": {
+        "fill_rate": 99.93,
+        "top_values": [
+          [
+            "해당없음",
+            73054
+          ],
+          [
+            "개인",
+            17643
+          ],
+          [
+            "법인",
+            4856
+          ]
+        ],
+        "distinct": 3
+      },
+      "prvo_pbff_desc": {
+        "fill_rate": 99.93,
+        "top_values": [
+          [
+            "공모",
+            95451
+          ],
+          [
+            "사모",
+            102
+          ]
+        ],
+        "distinct": 2
+      },
+      "sale_yn": {
+        "fill_rate": 100.0,
+        "top_values": [
+          [
+            "판매중",
+            76318
+          ],
+          [
+            "판매완료",
+            19300
+          ]
+        ],
+        "distinct": 2
+      },
+      "thco_sale_yn": {
+        "fill_rate": 95.79,
+        "top_values": [
+          [
+            "Y",
+            91594
+          ],
+          [
+            "KRZ50226929C",
+            1
+          ]
+        ],
+        "distinct": 2
+      },
+      "zrin_fd_ivst_risk_grd_nm": {
+        "fill_rate": 80.74,
+        "top_values": [
+          [
+            "높은 위험",
+            29088
+          ],
+          [
+            "다소 높은 위험",
+            16892
+          ],
+          [
+            "보통 위험",
+            13028
+          ],
+          [
+            "낮은 위험",
+            9788
+          ],
+          [
+            "매우 높은 위험",
+            5771
+          ],
+          [
+            "매우 낮은 위험",
+            2397
+          ],
+          [
+            "높은위험",
+            163
+          ],
+          [
+            "보통위험",
+            75
+          ]
+        ],
+        "distinct": 9
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+﻿컬럼명,컬럼한글명,컬럼값 예시,컬럼영문풀네임,고유값 개수,NULL값 개수,PK/FK,컬럼타입
+cu_base_index,기초지수,종합채권 3개월~1년,Common Update Base Index,20,1676,,text
+cu_charge_etc_rt,기타비용요율,0,Common Update Other Expense Rate,2,181,,text
+cu_charge_rt,총보수요율,0.49,Common Update Fee Rate,18,1517,,text
+cu_fund_mgmt_co,운용사,미래에셋,Common Update Fund Management Company,97,0,,text
+cu_lev_fector,배수,1,Common Update Leverage Factor,10,183,,text
+cu_strtegy,운용전략,실물복제,Common Update Strategy,5,155,,text
+cu_upt_dt,변동갱신일자,20260615,Common Information Update Date,12,183,,text
+du_bpr,기준가,13675.00,Daily Update Base Price,1404,5,,numeric
+du_chas_errt,추적오차율,0.00,Daily Update Tracking Error Rate,2,183,,numeric
+du_clpr,종가,13615.00,Daily Update Closing Price,1416,5,,numeric
+du_diff_rt,괴리율,0.00,Daily Update Difference Rate,2,217,,numeric
+du_er_1d,수익률_1D,-0.44,Daily Update Return 1-Day,818,172,,numeric
+du_er_1m,수익률_1M,1.38,Daily Update Return 1-Month,1154,194,,numeric
+du_er_1y,수익률_1Y,11.14,Daily Update Return 1-Year,1220,357,,numeric
+du_er_3m,수익률_3M,0.63,Daily Update Return 3-Month,1251,229,,numeric
+du_er_6m,수익률_6M,1.72,Daily Update Return 6-Month,1276,258,,numeric
+du_er_ytd,수익률_YTD,3.54,Daily Update Return Year-to-Date,1282,257,,numeric
+du_hpr,고가,13650.00,Daily Update High Price,1388,5,,numeric
+du_last_aum,최종AUM,239236725000.00,Daily Update Latest AUM,1044,281,,numeric
+du_last_nav,최종NAV,13670.67,Daily Update Latest NAV,1538,183,,numeric
+du_lpr,저가,13560.00,Daily Update Low Price,1389,5,,numeric
+du_nav_rnf_amt,전일NAV등락금액,-13670.67,Daily Update NAV Change Amount,1503,217,,numeric
+du_nav_yday,전일NAV,13670.67,Daily Update NAV Previous Day,1505,217,,numeric
+du_upt_dt,일간갱신일자,2026-06-15 00:00:00,Daily Information Update Date,2,217,,timestamp without time zone
+du_val_1d,일거래대금,1127563999.00,Daily Update Trading Value 1-Day,1476,5,,numeric
+du_val_1m,일거래대금평균_1M,1481358349.10,Daily Update Trading Value 1-Month,1492,40,,numeric
+du_val_5d,일거래대금평균_5D,1168756083.20,Daily Update Trading Value 5-Day,1498,5,,numeric
+du_vol_1d,일거래량,82836.00,Daily Update Trading Volume 1-Day,1366,5,,numeric
+du_vol_avg_1m,거래량평균_1M,109219.75,Daily Update Trading Volume Average 1-Month,1490,38,,numeric
+du_vol_avg_5d,거래량평균_5D,85775.60,Daily Update Trading Volume Average 5-Day,1470,5,,numeric
+nru_mkt_diff_rt,괴리율,0.00,Near Real-Time Update Market Difference Rate,1,1734,,numeric
+nru_mkt_inav,장중 iNAV,0.00,Near Real-Time Update Market Intraday NAV,1,1734,,numeric
+pd_abrv_nm,상품약어명,TIGER 미국채10년선물,Product Abbreviated Name,1727,0,,text
+pd_circ_net_tamt,유통순자산총액,239312500000.00,Product Circulating Net Total Amount,659,183,,numeric
+pd_circ_stk_cnt,유통주식수,17500000.00,Product Circulating Share Count,623,183,,numeric
+pd_curr_cd,상품통화코드,CURR_CD_KRW,Product Currency Code,3,1,,text
+pd_curr_nm,상품통화명,한국원화,Product Currency Name,3,1,,text
+pd_divd_amt_pshr,주당 배당금,0.00,Product Dividend Amount Per Share,2,183,,numeric
+pd_dvid_cycl,배당주기,분기,Product Dividend Cycle,1,1734,,text
+pd_dvid_yield,배당수익률,0.00,Product Dividend Yield,2,183,,numeric
+pd_exg_mkt_cd,거래소코드,EXG_MKT_NO_001,Product Exchange Market Code,2,1,PK,text
+pd_exg_mkt_nm,거래소명,유가증권,Product Exchange Market Name,2,1,,text
+pd_grp_no,상품군종류,ETF,Product Group Number,2,0,,text
+pd_itm_no,상품번호,KR7305080004,Product Item Number,1734,0,PK,text
+pd_itm_no_ma,상품번호_미래에셋,A305080,Mirae Asset Product Number,1734,0,PK,text
+pd_lst_price,상품액면가,0.00,Product Listed Price,1,0,,numeric
+pd_lst_stk_cnt,상품상장주식수,17500000.00,Product Listed Share Count,678,0,,numeric
+pd_lste_dt,상품거래종료일자,99991231,Product Delisting Date,81,1,,text
+pd_lstg_dt,상품거래가능일자,20180830,Product Listing Date,602,1,,text
+pd_mkt_id,상품거래시장코드,STK,Product Market Identifier,2,1,,text
+pd_mkt_nm,상품거래시장,유가증권,Product Market Name,2,1,,text
+pd_nav_pshr,주당 순자산가치,13670.67,Product NAV Per Share,1538,183,,numeric
+pd_net_ast_pshr,주당 순자산,0.00,Product Net Asset Per Share,2,183,,numeric
+pd_net_prft_pshr,주당 순이익,0.00,Product Net Profit Per Share,2,183,,numeric
+pd_net_rt_ast_pshr,주당 순자산비율,0.00,Product Net Asset Ratio Per Share,2,183,,numeric
+pd_net_tamt,순자산총액,239236722747.00,Product Net Asset Total Amount,1549,183,,numeric
+pd_nm,상품명,미래에셋 TIGER 미국채10년선물증권상장지수투자신탁(채권-파생형),Product Name,1734,0,,text
+pd_pen_risk_nm,연금거래위험구분,N,Product Pension Risk Name,3,0,,text
+pd_pen_tr_yn,연금거래가능여부,N,Product Pension Trading Indicator,2,0,,text
+pd_risk_cd,상품등급코드,PD_RISK_GCD_14,Product Risk Code,6,0,,text
+pd_risk_nm,상품등급명,보통위험(4등급),Product Risk Name,6,0,,text
+pd_sale_yn,상품판매여부,1,Product Sale Indicator,2,0,,text
+pd_sect_cd,ETF 섹터코드,2,Product Sector Code,6,183,,text
+pd_sect_nm,ETF 섹터명,주식,Product Sector Name,1,1734,,text
+pd_spac_yn,SPAC 여부,N,Product SPAC Indicator,2,183,,text
+pd_stk_cnt,상장주식수,17500000.00,Product Share Count,647,183,,numeric
+pd_tr_yn,상품거래정지혀부,0,Product Trading Indicator,3,1,,text
+ru_mkt_price,현재가,0.00,Real-Time Update Market Price,1,1734,,numeric
+ru_mkt_volume,거래량,0.00,Real-Time Update Market Volume,1,1734,,numeric
+wu_core_yn,핵심ETF여부,N,Weekly Update Core Indicator,2,0,,text
+wu_inv_ast_type,투자자산군,채권,Weekly Update Investment Asset Type,8,0,,text
+wu_inv_rgn,투자지역,미국,Weekly Update Investment Region,11,0,,text
+wu_upt_dt,주간갱신일자,20260615,Weekly Information Update Date,2,5,,text

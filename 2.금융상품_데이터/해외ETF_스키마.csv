@@ -1,0 +1,50 @@
+﻿컬럼명,컬럼한글명,컬럼값 예시,컬럼영문풀네임,고유값 개수,NULL값 개수,PK/FK,컬럼타입
+cu_base_index,기초지수,WisdomTree US SmallCap TR USD,Common Update Base Index,1734,8,,text
+cu_charge_rt,총보수요율,0.380000,Common Update Fee Rate,127,0,,numeric
+cu_etn_yn,ETN여부,Y,Common Update ETN Indicator,2,5587,,text
+cu_fund_mgmt_co,운용사,WisdomTree Asset Management Inc,Common Update Fund Management Company,373,8,,text
+cu_index_repl_mthd,지수복제방식,Optimized,Common Update Index Replication Method,5,3286,,text
+cu_index_tracking_yn,지수추종여부,Y,Common Update Index Tracking Indicator,2,3286,,text
+cu_inverse_short_yn,인버스·숏여부,Y,Common Update Inverse Short Indicator,2,5475,,text
+cu_lev_fector,레버리지배수,1.0,Common Update Leverage Factor,1,5646,,numeric
+cu_strtegy,운용전략,"The Fund seeks to track the price and yield performance, before fees and expenses, of the WisdomTree U.S. SmallCap Earnings Index. The Index is a fundamentally weighted index that is comprised of earnings-generating companies within the small-capitalization segment of the U.S. stock market.",Common Update Strategy,5567,8,,text
+cu_upt_dt,기본정보갱신일자,20260614,Common Information Update Date,1,0,,text
+du_base_dt_match_yn,기준일자일치여부,N,Daily Update Base Date Match Indicator,2,10,,text
+du_bpr,기준가,66.39000000,Daily Update Base Price,5182,10,,numeric
+du_clpr,종가,65.88540000,Daily Update Closing Price,5106,10,,numeric
+du_clpr_base_dt,종가기준일자,20260616,Daily Update Closing Price Base Date,87,10,,text
+du_clpr_src,종가출처,pd65n101.tday_clpr,Daily Update Closing Price Source,2,10,,text
+du_diff_rt,괴리율,3.297200,Daily Update Difference Rate,4,5643,,numeric
+du_er_1d,1일수익률,0.000000,Daily Update Return 1-Day,2,258,,numeric
+du_hpr,고가,67.00000000,Daily Update High Price,4622,10,,numeric
+du_last_aum,최근운용자산규모,707510000.00,Daily Update Latest AUM,4744,187,,numeric
+du_last_nav,최근순자산가치,49.700000,Daily Update Latest NAV,528,4964,,numeric
+du_lpr,저가,65.88540000,Daily Update Low Price,4736,10,,numeric
+du_nav_base_dt,순자산가치기준일자,2026-06-14 00:00:00,Daily Update NAV Base Date,1,0,,timestamp without time zone
+du_opr,시가,67.00000000,Daily Update Opening Price,4232,10,,numeric
+du_upt_dt,일간정보갱신일자,20260616,Daily Information Update Date,88,0,,text
+du_val_1d,1일거래대금,361097.00000000,Daily Update Trading Value 1-Day,5353,10,,numeric
+du_vol_1d,1일거래량,5445.00000000,Daily Update Trading Volume 1-Day,4853,10,,numeric
+pd_abrv_nm,상품약어명,EES,Product Abbreviated Name,5641,0,,text
+pd_curr_cd,상품통화코드,USD,Product Currency Code,3,8,,text
+pd_exg_mkt_cd,거래소시장코드,AMX,Product Exchange Market Code,5,0,,text
+pd_grp_no,상품군번호,ETF,Product Group Number,2,0,,text
+pd_isin_cd,ISIN코드,US97717W5629,Product ISIN Code,5588,9,,text
+pd_itm_no,상품번호,EES,Product Item Number,5646,0,PK,text
+pd_itm_no_ma,미래에셋상품번호,EES,Mirae Asset Product Number,5646,0,,text
+pd_lipper_id,리퍼펀드식별자,40113961,Product Lipper Identifier,5589,8,,text
+pd_lstg_dt,상장일자,20070223,Product Listing Date,1956,0,,text
+pd_lst_price,상장가격,0E+00,Product Listed Price,3,10,,numeric
+pd_lst_stk_cnt,상장주식수,10650000.00,Product Listed Share Count,3105,0,,numeric
+pd_mkt_id,시장식별자,US,Product Market Identifier,1,0,,text
+pd_nm,상품명,WisdomTree US SmallCap Fund,Product Name,5630,0,,text
+pd_sale_yn,상품판매여부,1,Product Sale Indicator,2,10,,text
+pd_trd_ccy,거래통화,USD,Product Trading Currency,1,0,,text
+pd_tr_yn,상품거래가능여부,0,Product Trading Indicator,2,10,,text
+pd_us_cik,미국SEC CIK,1350487,Product US CIK,375,13,,text
+ru_mkt_price,실시간시장가격,65.88540000,Real-Time Update Market Price,5102,10,,numeric
+ru_mkt_volume,실시간거래량,5445.00000000,Real-Time Update Market Volume,4853,10,,numeric
+wu_core_yn,핵심ETF여부,N,Weekly Update Core Indicator,2,5543,,text
+wu_inv_ast_type,투자자산유형,Equity,Weekly Update Investment Asset Type,7,8,,text
+wu_inv_rgn,투자지역,United States of America,Weekly Update Investment Region,60,8,,text
+wu_upt_dt,주간정보갱신일자,20260614,Weekly Information Update Date,1,0,,text

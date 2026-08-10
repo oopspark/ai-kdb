@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "367b2c143e6bdc3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "87d2665cf345e27a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "153349ed4f5a7c5c",
+            "type": "leaf",
+            "state": {
+              "type": "csv-tsv-viewer",
+              "state": {
+                "file": "2.금융상품_데이터/공모펀드_스키마.csv"
+              },
+              "icon": "table-2",
+              "title": "공모펀드_스키마"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ceb43f3b0d9054af",
+    "type": "split",
+    "children": [
+      {
+        "id": "e99afcf949dbad56",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "44d1bc13f2fd56f3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "9894187f7efa33f3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "484705e27eb93a77",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1e6517e9fac4f1d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "c94fb17be73baf11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "080ccd4c18fa641a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "백링크"
+            }
+          },
+          {
+            "id": "7d503d2c797250cf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "나가는 링크"
+            }
+          },
+          {
+            "id": "9dc2cf3cb38d1e26",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "99c4662bdc024c22",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "104b8e8baa6035a2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
+    }
+  },
+  "active": "153349ed4f5a7c5c",
+  "lastOpenFiles": [
+    "2.금융상품_데이터/공모펀드_스키마.csv",
+    "md/금융상품_Agent_과제_실행계획.md",
+    "1.수정용_파이썬_코드/__pycache__/update_schema_from_yaml.cpython-314.pyc",
+    "1.수정용_파이썬_코드/update_schema_from_yaml.py",
+    "2.금융상품_데이터/공모펀드_스키마.csv.numbers",
+    "2.금융상품_데이터/공모펀드_스키마.numbers",
+    "1.수정용_파이썬_코드/__pycache__/build_unique_values_yaml.cpython-314.pyc",
+    "1.수정용_파이썬_코드/extract_pdf_content.py",
+    "1.수정용_파이썬_코드/profile_finance_data.py",
+    "1.수정용_파이썬_코드/resample_csv_files.py",
+    "1.수정용_파이썬_코드/build_unique_values_yaml.py",
+    "1_수정용_파이썬_코드/__pycache__/build_unique_values_yaml.cpython-314.pyc",
+    "과제소개_금융상품Agent.md"
+  ]
+}

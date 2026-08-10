@@ -1,0 +1,2056 @@
+# 금융상품 데이터 컬럼별 고유값
+# 모든 컬럼에 고유값 수(count)를 표시
+# 고유값이 100개 이하인 컬럼만 values를 표시
+# 빈 문자열은 null로 표시
+"국내채권":
+  "PD_NO":
+    english_full_name: "Product Number"
+    korean_name: "상품번호"
+    count: 42394
+    null_count: 0
+  "PD_EXG_MKT":
+    english_full_name: "Product Exchange Market"
+    korean_name: "상품거래시장"
+    count: 2
+    null_count: 0
+    values:
+      - "장내"
+      - "장외"
+  "PD_NM":
+    english_full_name: "Product Name"
+    korean_name: "상품명"
+    count: 42284
+    null_count: 0
+  "PD_ABRV_NM":
+    english_full_name: "Product Abbreviated Name"
+    korean_name: "상품약어명"
+    count: 42011
+    null_count: 365
+  "PD_ENG_NM":
+    english_full_name: "Product English Name"
+    korean_name: "상품영문명"
+    count: 42046
+    null_count: 324
+  "PD_ABRV_ENG_NM":
+    english_full_name: "Product Abbreviated English Name"
+    korean_name: "상품영문약어명"
+    count: 41996
+    null_count: 370
+  "PD_CTRY_CD":
+    english_full_name: "Product Country Code"
+    korean_name: "상품국가코드"
+    count: 2
+    null_count: 0
+    values:
+      - "KR"
+      - "XS"
+  "PD_PBCM":
+    english_full_name: "Product Issuer"
+    korean_name: "발행기관"
+    count: 8019
+    null_count: 918
+  "STD_PD_MCLS_NM":
+    english_full_name: "Standard Product Middle Classification Name"
+    korean_name: "표준상품중분류명"
+    count: 6
+    null_count: 0
+    values:
+      - "개인투자용국채"
+      - "국공채"
+      - "외화채권-금융채"
+      - "외화채권-회사채"
+      - "특수채"
+      - "회사채"
+  "STD_PD_SCLS_NM":
+    english_full_name: "Standard Product Small Classification Name"
+    korean_name: "표준상품소분류명"
+    count: 17
+    null_count: 13
+    values:
+      - null
+      - "개인투자용국채10년물"
+      - "개인투자용국채20년물"
+      - "개인투자용국채5년물"
+      - "공모지방채"
+      - "공사채"
+      - "국고채"
+      - "국민주택"
+      - "기타국채"
+      - "기타사채"
+      - "도시철도"
+      - "물가채"
+      - "은행채"
+      - "일반사채"
+      - "중앙은행채"
+      - "지역개발"
+      - "특수은행채"
+  "BD_KND":
+    english_full_name: "Bond Type"
+    korean_name: "채권종류"
+    count: 40
+    null_count: 924
+    values:
+      - null
+      - "Conduit회사채"
+      - "MBS"
+      - "SLBS"
+      - "개인투자용국채"
+      - "국고채권"
+      - "국민주택1종"
+      - "국민주택2종"
+      - "금융지주회사채"
+      - "기업인수목적회사채"
+      - "기타금융투자전업회사채"
+      - "기타금융회사채"
+      - "도시철도공채"
+      - "모집지방채"
+      - "보험회사채"
+      - "부동산투자회사채"
+      - "상호저축은행채"
+      - "시설대여채(리스)"
+      - "신기술금융채"
+      - "신용카드채"
+      - "외국환평형기금"
+      - "유동화회사채"
+      - "일반은행채"
+      - "일반지방공사채"
+      - "일반특수법인채"
+      - "일반회사채"
+      - "장기산업채권(특수금융)"
+      - "재정증권"
+      - "종합금융채"
+      - "중기창투회사채"
+      - "증권금융채(특수금융)"
+      - "지방공사보상채권"
+      - "지역개발채"
+      - "집합투자회사채"
+      - "통화안정채권"
+      - "투자매매.중개채"
+      - "투자일임회사채"
+      - "특수보상채권"
+      - "특수은행채"
+      - "할부금융채"
+  "CURR_CD":
+    english_full_name: "Currency Code"
+    korean_name: "통화코드"
+    count: 5
+    null_count: 0
+    values:
+      - "000"
+      - "EUR"
+      - "JPY"
+      - "KRW"
+      - "USD"
+  "ISU_BAL_AMT":
+    english_full_name: "Issue Balance Amount"
+    korean_name: "발행잔액"
+    count: 4452
+    null_count: 0
+  "ISU_DT":
+    english_full_name: "Issue Date"
+    korean_name: "발행일자"
+    count: 3147
+    null_count: 3
+  "MAT_DT":
+    english_full_name: "Maturity Date"
+    korean_name: "만기일자"
+    count: 5352
+    null_count: 3
+  "SRFC_IRT":
+    english_full_name: "Coupon Interest Rate"
+    korean_name: "표면금리"
+    count: 5677
+    null_count: 2
+  "PD_EVCO_CRD_GRD":
+    english_full_name: "Product Evaluation Company Credit Grade"
+    korean_name: "평가회사신용등급"
+    count: 101
+    null_count: 17428
+  "PD_RISK_GCD":
+    english_full_name: "Product Risk Grade Code"
+    korean_name: "상품위험등급코드"
+    count: 7
+    null_count: 0
+    values:
+      - "0"
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+  "PD_STD_INFO_UPDATE":
+    english_full_name: "Product Standard Information Update Date"
+    korean_name: "상품기준정보갱신일자"
+    count: 911
+    null_count: 10571
+  "BUY_YIELD":
+    english_full_name: "Purchase Yield"
+    korean_name: "매수수익률"
+    count: 540
+    null_count: 41513
+  "CORP_PRETAX_YIELD":
+    english_full_name: "Corporate Pre-Tax Yield"
+    korean_name: "법인세전수익률"
+    count: 830
+    null_count: 41513
+  "CORP_AFTER_TAX_YIELD":
+    english_full_name: "Corporate After Tax Yield"
+    korean_name: "법인세후수익률"
+    count: 830
+    null_count: 41513
+  "AFTER_TAX_YIELD":
+    english_full_name: "After Tax Yield"
+    korean_name: "세후수익률"
+    count: 829
+    null_count: 41513
+  "PREF_TAX_YIELD":
+    english_full_name: "Preferential Tax Yield"
+    korean_name: "우대세율적용수익률"
+    count: 837
+    null_count: 41513
+  "AVG_ANNUAL_TAX_YIELD":
+    english_full_name: "Average Annual Tax Yield"
+    korean_name: "연평균세후수익률"
+    count: 2
+    null_count: 41513
+    values:
+      - null
+      - "0"
+  "DEPO_EQUIV_YIELD_154":
+    english_full_name: "Deposit-Equivalent Yield at 15.4% Tax Rate"
+    korean_name: "예금환산수익률(세율 15.4%)"
+    count: 829
+    null_count: 41513
+  "BUYABLE_QUANTITY":
+    english_full_name: "Purchasable Quantity"
+    korean_name: "매수가능수량"
+    count: 296
+    null_count: 41513
+  "REMAINING_DAYS":
+    english_full_name: "Remaining Days"
+    korean_name: "잔존일수"
+    count: 3943
+    null_count: 10645
+  "DUR":
+    english_full_name: "Duration"
+    korean_name: "듀레이션"
+    count: 14851
+    null_count: 13376
+  "COV":
+    english_full_name: "Convexity"
+    korean_name: "컨벡서티"
+    count: 16188
+    null_count: 13376
+  "NDY_DUR":
+    english_full_name: "Next-Day Duration"
+    korean_name: "익일듀레이션"
+    count: 14607
+    null_count: 13376
+  "NDY_COV":
+    english_full_name: "Next-Day Convexity"
+    korean_name: "익일컨벡서티"
+    count: 15941
+    null_count: 13376
+  "EVAL_PRICE":
+    english_full_name: "Evaluation Price"
+    korean_name: "평가가격"
+    count: 20313
+    null_count: 10571
+  "APPLIED_YIELD":
+    english_full_name: "Applied Yield"
+    korean_name: "적용수익률"
+    count: 3852
+    null_count: 10571
+  "DIRTY":
+    english_full_name: "Dirty Price"
+    korean_name: "경과이자포함가격"
+    count: 19665
+    null_count: 13376
+  "NDY_EVAL_PRICE":
+    english_full_name: "Next-Day Evaluation Price"
+    korean_name: "익일평가가격"
+    count: 16427
+    null_count: 13376
+  "NDY_APPLIED_YIELD":
+    english_full_name: "Next-Day Applied Yield"
+    korean_name: "익일적용수익률"
+    count: 2945
+    null_count: 13376
+  "NDY_DIRTY":
+    english_full_name: "Next-Day Dirty Price"
+    korean_name: "익일경과이자포함가격"
+    count: 16381
+    null_count: 13376
+  "CRD_GRD":
+    english_full_name: "Credit Grade"
+    korean_name: "신용등급"
+    count: 21
+    null_count: 17644
+    values:
+      - null
+      - "A+"
+      - "A-"
+      - "A0"
+      - "AA+"
+      - "AA-"
+      - "AA0"
+      - "AAA"
+      - "B+"
+      - "B-"
+      - "B0"
+      - "BB+"
+      - "BB-"
+      - "BB0"
+      - "BBB+"
+      - "BBB-"
+      - "BBB0"
+      - "C"
+      - "C0"
+      - "CC0"
+      - "CCC"
+  "CRD_GRD_DT":
+    english_full_name: "Credit Grade Date"
+    korean_name: "신용등급평가일자"
+    count: 2319
+    null_count: 14829
+"국내ETF":
+  "cu_base_index":
+    english_full_name: "Common Update Base Index"
+    korean_name: "기초지수"
+    count: 20
+    null_count: 1676
+    values:
+      - null
+      - "DWGRTT 90%"
+      - "iSelect K-REITs"
+      - "KAP CD 6개월  90%"
+      - "KOSPI200"
+      - "KRX 300"
+      - "KRX 미디어통신"
+      - "MSCI ACWI"
+      - "MSCI ACWI CR 50% + 종합채권01Y 50%"
+      - "MSCI ACWI Health Care"
+      - "MSCI ACWI Information Technology"
+      - "MSCI CHINA"
+      - "MSCI EM (EMERGING MARKETS)"
+      - "MSCI NORTH AMERICA"
+      - "Rogers International Commodity TR"
+      - "제로인 대안투자기대수익지수"
+      - "종합채권 1~2년"
+      - "종합채권 3개월~1년"
+      - "종합채권03Y 90%"
+      - "코스닥150 150%"
+  "cu_charge_etc_rt":
+    english_full_name: "Common Update Other Expense Rate"
+    korean_name: "기타비용요율"
+    count: 2
+    null_count: 181
+    values:
+      - null
+      - "0"
+  "cu_charge_rt":
+    english_full_name: "Common Update Fee Rate"
+    korean_name: "총보수요율"
+    count: 18
+    null_count: 1517
+    values:
+      - null
+      - "0"
+      - "0.07"
+      - "0.08"
+      - "0.09"
+      - "0.1"
+      - "0.15"
+      - "0.16"
+      - "0.19"
+      - "0.2"
+      - "0.26"
+      - "0.35"
+      - "0.37"
+      - "0.4"
+      - "0.49"
+      - "0.52"
+      - "0.59"
+      - "0.64"
+  "cu_fund_mgmt_co":
+    english_full_name: "Common Update Fund Management Company"
+    korean_name: "운용사"
+    count: 97
+    null_count: 0
+    values:
+      - "."
+      - "BNK"
+      - "DB"
+      - "DB마이티K100증권상장지수투자신탁(주식)"
+      - "IBK"
+      - "iM에셋"
+      - "KB"
+      - "KB증권(주)"
+      - "NH-Amundi"
+      - "교보악사"
+      - "대신"
+      - "대신증권(주)"
+      - "더제이"
+      - "마이다스"
+      - "메리츠증권 주식회사"
+      - "미래에셋"
+      - "미래에셋TIGER"
+      - "미래에셋TIGER200IT증권상장지수투자신탁(주식)"
+      - "미래에셋TIGER200건설증권상장지수투자신탁(주식)"
+      - "미래에셋TIGER200경기소비재증권상장지수투자신탁(주식)"
+      - "미래에셋TIGER200금융증권상장지수투자신탁(주식)"
+      - "미래에셋TIGER200에너지화학증권상장지수투자신탁(주식)"
+      - "미래에셋TIGER200중공업증권상장지수투자신탁(주식)"
+      - "미래에셋TIGER200철강소재증권상장지수투자신탁(주식)"
+      - "미래에셋TIGER200커버드콜증권상장지수투자신탁(주식-파생형)"
+      - "미래에셋TIGERKTOP30증권상장지수투자신탁(주식)"
+      - "미래에셋TIGERK방산&우주증권상장지수투자신탁(주식)"
+      - "미래에셋TIGERMSCIEM레버리지증권상장지수투자신탁(주식혼합-파생형)(합성"
+      - "미래에셋TIGERMSCIUS리츠부동산상장지수투자신탁(파생형)(합성"
+      - "미래에셋TIGERS&P500레버리지증권상장지수투자신탁(주식혼합-파생형)(합성"
+      - "미래에셋TIGERS&P500인버스선물증권상장지수투자신탁(주식-파생형)(H)"
+      - "미래에셋TIGER국고채30년스트립액티브증권상장지수투자신탁(채권)"
+      - "미래에셋TIGER글로벌AI전력인프라액티브증권상장지수투자신탁(주식)"
+      - "미래에셋TIGER글로벌AI플랫폼액티브증권상장지수투자신탁(주식)"
+      - "미래에셋TIGER나스닥바이오증권상장지수투자신탁(주식)"
+      - "미래에셋TIGER단기선진국하이일드증권상장지수투자신탁(채권-파생형)(합성"
+      - "미래에셋TIGER로우볼증권상장지수투자신탁(주식)"
+      - "미래에셋TIGER모닝스타글로벌4차산업혁신기술증권상장지수투자신탁(주식-파생형)합성H"
+      - "미래에셋TIGER미국30년국채커버드콜액티브증권상장지수투자신탁(채권-재간접형)(H)"
+      - "미래에셋TIGER미국S&P500타겟데일리커버드콜증권상장지수투자신탁(주식)"
+      - "미래에셋TIGER미국나스닥100타겟데일리커버드콜증권상장지수투자신탁(주식)"
+      - "미래에셋TIGER미국배당다우존스타켓커버드콜2호증권상장지수투자신탁(주식-파생형)"
+      - "미래에셋TIGER미국테크TOP10타겟커버드콜증권상장지수투자신탁(주식-파생형)"
+      - "미래에셋TIGER배당성장증권상장지수투자신탁(주식)"
+      - "미래에셋TIGER배당커버드콜액티브증권상장지수투자신탁(주식)"
+      - "미래에셋TIGER우량회사채액티브증권상장지수투자신탁(채권)"
+      - "미래에셋TIGER원유인버스선물특별자산상장지수투자신탁(원유-파생형)(H)"
+      - "미래에셋TIGER유로스탁스50레버리지증권상장지수투자신탁(주식혼합-파생형)(합성"
+      - "미래에셋TIGER유로스탁스50증권상장지수투자신탁(주식-파생형)(합성"
+      - "미래에셋TIGER일본증권상장지수투자신탁(주식-파생형)(합성"
+      - "미래에셋TIGER종합채권(AA-이상)액티브증권상장지수투자신탁(채권)"
+      - "미래에셋TIGER차이나CSI300레버리지증권상장지수투자신탁(주식혼합-파생재간접형)합성"
+      - "미래에셋TIGER차이나CSI300인버스증권상장지수투자신탁(채권혼합-파생형)(합성)"
+      - "미래에셋TIGER차이나CSI300증권상장지수투자신탁(주식-파생형)"
+      - "미래에셋TIGER코스피고배당증권상장지수투자신탁(주식)"
+      - "미래에셋TIGER필라델피아반도체레버리지증권상장지수투자신탁(주식혼합-파생형)(합성)"
+      - "미래에셋증권 주식회사"
+      - "미래에셋증권글로벌헬스케어제14호(ETN)"
+      - "브이아이"
+      - "삼성"
+      - "삼성KODEX"
+      - "삼성KODEX10년국채선물인버스증권상장지수투자신탁[채권-파생형]"
+      - "삼성KODEX10년국채선물증권상장지수투자신탁[채권-파생형]"
+      - "삼성KODEX건설증권상장지수투자신탁[주식]"
+      - "삼성KODEX단기채권PLUS증권상장지수투자신탁[채권]"
+      - "삼성KODEX단기채권증권상장지수투자신탁[채권]"
+      - "삼성KODEX레버리지증권상장지수투자신탁[주식-파생형]"
+      - "삼성KODEX미국바이오테크증권상장지수투자신탁[주식-파생형](합성)"
+      - "삼성KODEX보험증권상장지수투자신탁[주식]"
+      - "삼성KODEX삼성그룹밸류증권상장지수투자신탁[주식]"
+      - "삼성KODEX에너지화학증권상장지수투자신탁[주식]"
+      - "삼성KODEX운송증권상장지수투자신탁[주식]"
+      - "삼성KODEX인버스증권상장지수투자신탁[주식-파생형]"
+      - "삼성KODEX철강증권상장지수투자신탁[주식]"
+      - "삼성액티브"
+      - "삼성증권(주)"
+      - "신한"
+      - "신한SOL유럽탄소배출권선물인버스ICE특별자산상장지수투자신탁[탄소배출권-파생형](H)"
+      - "신한투자증권 주식회사"
+      - "에셋플러스"
+      - "엔에이치투자증권(주)"
+      - "우리"
+      - "유리"
+      - "케이씨지아이"
+      - "키움"
+      - "키움증권(주)"
+      - "타임폴리오"
+      - "트러스톤"
+      - "하나"
+      - "하나증권주식회사"
+      - "한국밸류"
+      - "한국투자"
+      - "한국투자증권(주)"
+      - "한화"
+      - "한화PLUS"
+      - "현대"
+      - "흥국"
+  "cu_lev_fector":
+    english_full_name: "Common Update Leverage Factor"
+    korean_name: "배수"
+    count: 10
+    null_count: 183
+    values:
+      - null
+      - "-0.5"
+      - "-1"
+      - "-1.5"
+      - "-2"
+      - "-3"
+      - "1"
+      - "1.5"
+      - "2"
+      - "3"
+  "cu_strtegy":
+    english_full_name: "Common Update Strategy"
+    korean_name: "운용전략"
+    count: 5
+    null_count: 155
+    values:
+      - null
+      - "C"
+      - "실물복제"
+      - "액티브"
+      - "합성복제"
+  "cu_upt_dt":
+    english_full_name: "Common Information Update Date"
+    korean_name: "변동갱신일자"
+    count: 12
+    null_count: 183
+    values:
+      - null
+      - "20260409"
+      - "20260420"
+      - "20260421"
+      - "20260429"
+      - "20260511"
+      - "20260520"
+      - "20260522"
+      - "20260528"
+      - "20260601"
+      - "20260608"
+      - "20260615"
+  "du_bpr":
+    english_full_name: "Daily Update Base Price"
+    korean_name: "기준가"
+    count: 1404
+    null_count: 5
+  "du_chas_errt":
+    english_full_name: "Daily Update Tracking Error Rate"
+    korean_name: "추적오차율"
+    count: 2
+    null_count: 183
+    values:
+      - null
+      - "0.00"
+  "du_clpr":
+    english_full_name: "Daily Update Closing Price"
+    korean_name: "종가"
+    count: 1416
+    null_count: 5
+  "du_diff_rt":
+    english_full_name: "Daily Update Difference Rate"
+    korean_name: "괴리율"
+    count: 2
+    null_count: 217
+    values:
+      - null
+      - "0.00"
+  "du_er_1d":
+    english_full_name: "Daily Update Return 1-Day"
+    korean_name: "수익률_1D"
+    count: 818
+    null_count: 172
+  "du_er_1m":
+    english_full_name: "Daily Update Return 1-Month"
+    korean_name: "수익률_1M"
+    count: 1154
+    null_count: 194
+  "du_er_1y":
+    english_full_name: "Daily Update Return 1-Year"
+    korean_name: "수익률_1Y"
+    count: 1220
+    null_count: 357
+  "du_er_3m":
+    english_full_name: "Daily Update Return 3-Month"
+    korean_name: "수익률_3M"
+    count: 1251
+    null_count: 229
+  "du_er_6m":
+    english_full_name: "Daily Update Return 6-Month"
+    korean_name: "수익률_6M"
+    count: 1276
+    null_count: 258
+  "du_er_ytd":
+    english_full_name: "Daily Update Return Year-to-Date"
+    korean_name: "수익률_YTD"
+    count: 1282
+    null_count: 257
+  "du_hpr":
+    english_full_name: "Daily Update High Price"
+    korean_name: "고가"
+    count: 1388
+    null_count: 5
+  "du_last_aum":
+    english_full_name: "Daily Update Latest AUM"
+    korean_name: "최종AUM"
+    count: 1044
+    null_count: 281
+  "du_last_nav":
+    english_full_name: "Daily Update Latest NAV"
+    korean_name: "최종NAV"
+    count: 1538
+    null_count: 183
+  "du_lpr":
+    english_full_name: "Daily Update Low Price"
+    korean_name: "저가"
+    count: 1389
+    null_count: 5
+  "du_nav_rnf_amt":
+    english_full_name: "Daily Update NAV Change Amount"
+    korean_name: "전일NAV등락금액"
+    count: 1503
+    null_count: 217
+  "du_nav_yday":
+    english_full_name: "Daily Update NAV Previous Day"
+    korean_name: "전일NAV"
+    count: 1505
+    null_count: 217
+  "du_upt_dt":
+    english_full_name: "Daily Information Update Date"
+    korean_name: "일간갱신일자"
+    count: 2
+    null_count: 217
+    values:
+      - null
+      - "2026-06-15 00:00:00"
+  "du_val_1d":
+    english_full_name: "Daily Update Trading Value 1-Day"
+    korean_name: "일거래대금"
+    count: 1476
+    null_count: 5
+  "du_val_1m":
+    english_full_name: "Daily Update Trading Value 1-Month"
+    korean_name: "일거래대금평균_1M"
+    count: 1492
+    null_count: 40
+  "du_val_5d":
+    english_full_name: "Daily Update Trading Value 5-Day"
+    korean_name: "일거래대금평균_5D"
+    count: 1498
+    null_count: 5
+  "du_vol_1d":
+    english_full_name: "Daily Update Trading Volume 1-Day"
+    korean_name: "일거래량"
+    count: 1366
+    null_count: 5
+  "du_vol_avg_1m":
+    english_full_name: "Daily Update Trading Volume Average 1-Month"
+    korean_name: "거래량평균_1M"
+    count: 1490
+    null_count: 38
+  "du_vol_avg_5d":
+    english_full_name: "Daily Update Trading Volume Average 5-Day"
+    korean_name: "거래량평균_5D"
+    count: 1470
+    null_count: 5
+  "nru_mkt_diff_rt":
+    english_full_name: "Near Real-Time Update Market Difference Rate"
+    korean_name: "괴리율"
+    count: 1
+    null_count: 1734
+    values:
+      - null
+  "nru_mkt_inav":
+    english_full_name: "Near Real-Time Update Market Intraday NAV"
+    korean_name: "장중 iNAV"
+    count: 1
+    null_count: 1734
+    values:
+      - null
+  "pd_abrv_nm":
+    english_full_name: "Product Abbreviated Name"
+    korean_name: "상품약어명"
+    count: 1727
+    null_count: 0
+  "pd_circ_net_tamt":
+    english_full_name: "Product Circulating Net Total Amount"
+    korean_name: "유통순자산총액"
+    count: 659
+    null_count: 183
+  "pd_circ_stk_cnt":
+    english_full_name: "Product Circulating Share Count"
+    korean_name: "유통주식수"
+    count: 623
+    null_count: 183
+  "pd_curr_cd":
+    english_full_name: "Product Currency Code"
+    korean_name: "상품통화코드"
+    count: 3
+    null_count: 1
+    values:
+      - null
+      - "CURR_CD_000"
+      - "CURR_CD_KRW"
+  "pd_curr_nm":
+    english_full_name: "Product Currency Name"
+    korean_name: "상품통화명"
+    count: 3
+    null_count: 1
+    values:
+      - null
+      - "한국원화"
+      - "해당없음"
+  "pd_divd_amt_pshr":
+    english_full_name: "Product Dividend Amount Per Share"
+    korean_name: "주당 배당금"
+    count: 2
+    null_count: 183
+    values:
+      - null
+      - "0.00"
+  "pd_dvid_cycl":
+    english_full_name: "Product Dividend Cycle"
+    korean_name: "배당주기"
+    count: 1
+    null_count: 1734
+    values:
+      - null
+  "pd_dvid_yield":
+    english_full_name: "Product Dividend Yield"
+    korean_name: "배당수익률"
+    count: 2
+    null_count: 183
+    values:
+      - null
+      - "0.00"
+  "pd_exg_mkt_cd":
+    english_full_name: "Product Exchange Market Code"
+    korean_name: "거래소코드"
+    count: 2
+    null_count: 1
+    values:
+      - null
+      - "EXG_MKT_NO_001"
+  "pd_exg_mkt_nm":
+    english_full_name: "Product Exchange Market Name"
+    korean_name: "거래소명"
+    count: 2
+    null_count: 1
+    values:
+      - null
+      - "유가증권"
+  "pd_grp_no":
+    english_full_name: "Product Group Number"
+    korean_name: "상품군종류"
+    count: 2
+    null_count: 0
+    values:
+      - "ETF"
+      - "ETN"
+  "pd_itm_no":
+    english_full_name: "Product Item Number"
+    korean_name: "상품번호"
+    count: 1734
+    null_count: 0
+  "pd_itm_no_ma":
+    english_full_name: "Mirae Asset Product Number"
+    korean_name: "상품번호_미래에셋"
+    count: 1734
+    null_count: 0
+  "pd_lst_price":
+    english_full_name: "Product Listed Price"
+    korean_name: "상품액면가"
+    count: 1
+    null_count: 0
+    values:
+      - "0.00"
+  "pd_lst_stk_cnt":
+    english_full_name: "Product Listed Share Count"
+    korean_name: "상품상장주식수"
+    count: 678
+    null_count: 0
+  "pd_lste_dt":
+    english_full_name: "Product Delisting Date"
+    korean_name: "상품거래종료일자"
+    count: 81
+    null_count: 1
+    values:
+      - null
+      - "20250116"
+      - "20250117"
+      - "20250122"
+      - "20250123"
+      - "20250205"
+      - "20250206"
+      - "20250220"
+      - "20250225"
+      - "20250307"
+      - "20250311"
+      - "20250318"
+      - "20250319"
+      - "20250320"
+      - "20250326"
+      - "20250402"
+      - "20250424"
+      - "20250425"
+      - "20250429"
+      - "20250508"
+      - "20250514"
+      - "20250522"
+      - "20250527"
+      - "20250529"
+      - "20250604"
+      - "20250612"
+      - "20250624"
+      - "20250625"
+      - "20250627"
+      - "20250716"
+      - "20250730"
+      - "20250804"
+      - "20250805"
+      - "20250818"
+      - "20250821"
+      - "20250827"
+      - "20250909"
+      - "20250916"
+      - "20250918"
+      - "20250926"
+      - "20251002"
+      - "20251015"
+      - "20251021"
+      - "20251024"
+      - "20251029"
+      - "20251030"
+      - "20251105"
+      - "20251114"
+      - "20251119"
+      - "20251121"
+      - "20251126"
+      - "20251201"
+      - "20251204"
+      - "20251205"
+      - "20251208"
+      - "20251217"
+      - "20251218"
+      - "20251219"
+      - "20251222"
+      - "20260107"
+      - "20260108"
+      - "20260114"
+      - "20260223"
+      - "20260225"
+      - "20260226"
+      - "20260227"
+      - "20260304"
+      - "20260305"
+      - "20260319"
+      - "20260326"
+      - "20260410"
+      - "20260421"
+      - "20260422"
+      - "20260430"
+      - "20260512"
+      - "20260521"
+      - "20260526"
+      - "20260529"
+      - "20260602"
+      - "20260609"
+      - "99991231"
+  "pd_lstg_dt":
+    english_full_name: "Product Listing Date"
+    korean_name: "상품거래가능일자"
+    count: 602
+    null_count: 1
+  "pd_mkt_id":
+    english_full_name: "Product Market Identifier"
+    korean_name: "상품거래시장코드"
+    count: 2
+    null_count: 1
+    values:
+      - null
+      - "STK"
+  "pd_mkt_nm":
+    english_full_name: "Product Market Name"
+    korean_name: "상품거래시장"
+    count: 2
+    null_count: 1
+    values:
+      - null
+      - "유가증권"
+  "pd_nav_pshr":
+    english_full_name: "Product NAV Per Share"
+    korean_name: "주당 순자산가치"
+    count: 1538
+    null_count: 183
+  "pd_net_ast_pshr":
+    english_full_name: "Product Net Asset Per Share"
+    korean_name: "주당 순자산"
+    count: 2
+    null_count: 183
+    values:
+      - null
+      - "0.00"
+  "pd_net_prft_pshr":
+    english_full_name: "Product Net Profit Per Share"
+    korean_name: "주당 순이익"
+    count: 2
+    null_count: 183
+    values:
+      - null
+      - "0.00"
+  "pd_net_rt_ast_pshr":
+    english_full_name: "Product Net Asset Ratio Per Share"
+    korean_name: "주당 순자산비율"
+    count: 2
+    null_count: 183
+    values:
+      - null
+      - "0.00"
+  "pd_net_tamt":
+    english_full_name: "Product Net Asset Total Amount"
+    korean_name: "순자산총액"
+    count: 1549
+    null_count: 183
+  "pd_nm":
+    english_full_name: "Product Name"
+    korean_name: "상품명"
+    count: 1734
+    null_count: 0
+  "pd_pen_risk_nm":
+    english_full_name: "Product Pension Risk Name"
+    korean_name: "연금거래위험구분"
+    count: 3
+    null_count: 0
+    values:
+      - "N"
+      - "안전자산"
+      - "위험자산"
+  "pd_pen_tr_yn":
+    english_full_name: "Product Pension Trading Indicator"
+    korean_name: "연금거래가능여부"
+    count: 2
+    null_count: 0
+    values:
+      - "N"
+      - "Y"
+  "pd_risk_cd":
+    english_full_name: "Product Risk Code"
+    korean_name: "상품등급코드"
+    count: 6
+    null_count: 0
+    values:
+      - "PD_RISK_GCD_11"
+      - "PD_RISK_GCD_12"
+      - "PD_RISK_GCD_13"
+      - "PD_RISK_GCD_14"
+      - "PD_RISK_GCD_15"
+      - "PD_RISK_GCD_16"
+  "pd_risk_nm":
+    english_full_name: "Product Risk Name"
+    korean_name: "상품등급명"
+    count: 6
+    null_count: 0
+    values:
+      - "낮은위험(5등급)"
+      - "높은위험(2등급)"
+      - "다소높은위험(3등급)"
+      - "매우낮은위험(6등급)"
+      - "매우높은위험(1등급)"
+      - "보통위험(4등급)"
+  "pd_sale_yn":
+    english_full_name: "Product Sale Indicator"
+    korean_name: "상품판매여부"
+    count: 2
+    null_count: 0
+    values:
+      - "0"
+      - "1"
+  "pd_sect_cd":
+    english_full_name: "Product Sector Code"
+    korean_name: "ETF 섹터코드"
+    count: 6
+    null_count: 183
+    values:
+      - null
+      - "2"
+      - "3"
+      - "4"
+      - "8"
+      - "9"
+  "pd_sect_nm":
+    english_full_name: "Product Sector Name"
+    korean_name: "ETF 섹터명"
+    count: 1
+    null_count: 1734
+    values:
+      - null
+  "pd_spac_yn":
+    english_full_name: "Product SPAC Indicator"
+    korean_name: "SPAC 여부"
+    count: 2
+    null_count: 183
+    values:
+      - null
+      - "N"
+  "pd_stk_cnt":
+    english_full_name: "Product Share Count"
+    korean_name: "상장주식수"
+    count: 647
+    null_count: 183
+  "pd_tr_yn":
+    english_full_name: "Product Trading Indicator"
+    korean_name: "상품거래정지혀부"
+    count: 3
+    null_count: 1
+    values:
+      - null
+      - "0"
+      - "1"
+  "ru_mkt_price":
+    english_full_name: "Real-Time Update Market Price"
+    korean_name: "현재가"
+    count: 1
+    null_count: 1734
+    values:
+      - null
+  "ru_mkt_volume":
+    english_full_name: "Real-Time Update Market Volume"
+    korean_name: "거래량"
+    count: 1
+    null_count: 1734
+    values:
+      - null
+  "wu_core_yn":
+    english_full_name: "Weekly Update Core Indicator"
+    korean_name: "핵심ETF여부"
+    count: 2
+    null_count: 0
+    values:
+      - "N"
+      - "Y"
+  "wu_inv_ast_type":
+    english_full_name: "Weekly Update Investment Asset Type"
+    korean_name: "투자자산군"
+    count: 8
+    null_count: 0
+    values:
+      - "기타"
+      - "단기자금"
+      - "부동산"
+      - "원자재"
+      - "주식"
+      - "채권"
+      - "통화"
+      - "혼합자산"
+  "wu_inv_rgn":
+    english_full_name: "Weekly Update Investment Region"
+    korean_name: "투자지역"
+    count: 11
+    null_count: 0
+    values:
+      - "국내"
+      - "글로벌"
+      - "남미/북미"
+      - "미국"
+      - "베트남"
+      - "아시아"
+      - "유럽"
+      - "이머징/브릭스"
+      - "인도"
+      - "일본"
+      - "중국"
+  "wu_upt_dt":
+    english_full_name: "Weekly Information Update Date"
+    korean_name: "주간갱신일자"
+    count: 2
+    null_count: 5
+    values:
+      - null
+      - "20260615"
+"해외ETF":
+  "cu_base_index":
+    english_full_name: "Common Update Base Index"
+    korean_name: "기초지수"
+    count: 1734
+    null_count: 8
+  "cu_charge_rt":
+    english_full_name: "Common Update Fee Rate"
+    korean_name: "총보수요율"
+    count: 127
+    null_count: 0
+  "cu_etn_yn":
+    english_full_name: "Common Update ETN Indicator"
+    korean_name: "ETN여부"
+    count: 2
+    null_count: 5587
+    values:
+      - null
+      - "Y"
+  "cu_fund_mgmt_co":
+    english_full_name: "Common Update Fund Management Company"
+    korean_name: "운용사"
+    count: 373
+    null_count: 8
+  "cu_index_repl_mthd":
+    english_full_name: "Common Update Index Replication Method"
+    korean_name: "지수복제방식"
+    count: 5
+    null_count: 3286
+    values:
+      - null
+      - "Full"
+      - "Optimized"
+      - "Other"
+      - "Swap"
+  "cu_index_tracking_yn":
+    english_full_name: "Common Update Index Tracking Indicator"
+    korean_name: "지수추종여부"
+    count: 2
+    null_count: 3286
+    values:
+      - null
+      - "Y"
+  "cu_inverse_short_yn":
+    english_full_name: "Common Update Inverse Short Indicator"
+    korean_name: "인버스·숏여부"
+    count: 2
+    null_count: 5475
+    values:
+      - null
+      - "Y"
+  "cu_lev_fector":
+    english_full_name: "Common Update Leverage Factor"
+    korean_name: "레버리지배수"
+    count: 1
+    null_count: 5646
+    values:
+      - null
+  "cu_strtegy":
+    english_full_name: "Common Update Strategy"
+    korean_name: "운용전략"
+    count: 5567
+    null_count: 8
+  "cu_upt_dt":
+    english_full_name: "Common Information Update Date"
+    korean_name: "기본정보갱신일자"
+    count: 1
+    null_count: 0
+    values:
+      - "20260614"
+  "du_base_dt_match_yn":
+    english_full_name: "Daily Update Base Date Match Indicator"
+    korean_name: "기준일자일치여부"
+    count: 2
+    null_count: 10
+    values:
+      - null
+      - "N"
+  "du_bpr":
+    english_full_name: "Daily Update Base Price"
+    korean_name: "기준가"
+    count: 5182
+    null_count: 10
+  "du_clpr":
+    english_full_name: "Daily Update Closing Price"
+    korean_name: "종가"
+    count: 5106
+    null_count: 10
+  "du_clpr_base_dt":
+    english_full_name: "Daily Update Closing Price Base Date"
+    korean_name: "종가기준일자"
+    count: 87
+    null_count: 10
+    values:
+      - null
+      - "20250728"
+      - "20250806"
+      - "20250814"
+      - "20250818"
+      - "20250819"
+      - "20250820"
+      - "20250822"
+      - "20250825"
+      - "20250826"
+      - "20250908"
+      - "20250911"
+      - "20250912"
+      - "20250915"
+      - "20250916"
+      - "20250917"
+      - "20250918"
+      - "20250919"
+      - "20250925"
+      - "20251001"
+      - "20251003"
+      - "20251006"
+      - "20251009"
+      - "20251013"
+      - "20251014"
+      - "20251015"
+      - "20251020"
+      - "20251023"
+      - "20251024"
+      - "20251029"
+      - "20251113"
+      - "20251117"
+      - "20251125"
+      - "20251128"
+      - "20251201"
+      - "20251203"
+      - "20251208"
+      - "20251212"
+      - "20251215"
+      - "20251219"
+      - "20251222"
+      - "20251223"
+      - "20251224"
+      - "20260108"
+      - "20260109"
+      - "20260114"
+      - "20260122"
+      - "20260123"
+      - "20260126"
+      - "20260129"
+      - "20260130"
+      - "20260217"
+      - "20260218"
+      - "20260219"
+      - "20260223"
+      - "20260227"
+      - "20260313"
+      - "20260316"
+      - "20260323"
+      - "20260324"
+      - "20260326"
+      - "20260327"
+      - "20260331"
+      - "20260406"
+      - "20260408"
+      - "20260410"
+      - "20260413"
+      - "20260414"
+      - "20260416"
+      - "20260417"
+      - "20260420"
+      - "20260423"
+      - "20260430"
+      - "20260504"
+      - "20260505"
+      - "20260507"
+      - "20260512"
+      - "20260514"
+      - "20260515"
+      - "20260521"
+      - "20260603"
+      - "20260604"
+      - "20260608"
+      - "20260609"
+      - "20260611"
+      - "20260615"
+      - "20260616"
+  "du_clpr_src":
+    english_full_name: "Daily Update Closing Price Source"
+    korean_name: "종가출처"
+    count: 2
+    null_count: 10
+    values:
+      - null
+      - "pd65n101.tday_clpr"
+  "du_diff_rt":
+    english_full_name: "Daily Update Difference Rate"
+    korean_name: "괴리율"
+    count: 4
+    null_count: 5643
+    values:
+      - null
+      - "3.297200"
+      - "37585.000000"
+      - "8.117500"
+  "du_er_1d":
+    english_full_name: "Daily Update Return 1-Day"
+    korean_name: "1일수익률"
+    count: 2
+    null_count: 258
+    values:
+      - null
+      - "0.000000"
+  "du_hpr":
+    english_full_name: "Daily Update High Price"
+    korean_name: "고가"
+    count: 4622
+    null_count: 10
+  "du_last_aum":
+    english_full_name: "Daily Update Latest AUM"
+    korean_name: "최근운용자산규모"
+    count: 4744
+    null_count: 187
+  "du_last_nav":
+    english_full_name: "Daily Update Latest NAV"
+    korean_name: "최근순자산가치"
+    count: 528
+    null_count: 4964
+  "du_lpr":
+    english_full_name: "Daily Update Low Price"
+    korean_name: "저가"
+    count: 4736
+    null_count: 10
+  "du_nav_base_dt":
+    english_full_name: "Daily Update NAV Base Date"
+    korean_name: "순자산가치기준일자"
+    count: 1
+    null_count: 0
+    values:
+      - "2026-06-14 00:00:00"
+  "du_opr":
+    english_full_name: "Daily Update Opening Price"
+    korean_name: "시가"
+    count: 4232
+    null_count: 10
+  "du_upt_dt":
+    english_full_name: "Daily Information Update Date"
+    korean_name: "일간정보갱신일자"
+    count: 88
+    null_count: 0
+    values:
+      - "20250729"
+      - "20250807"
+      - "20250815"
+      - "20250819"
+      - "20250820"
+      - "20250821"
+      - "20250823"
+      - "20250826"
+      - "20250827"
+      - "20250909"
+      - "20250912"
+      - "20250913"
+      - "20250916"
+      - "20250917"
+      - "20250918"
+      - "20250919"
+      - "20250920"
+      - "20250926"
+      - "20251002"
+      - "20251004"
+      - "20251007"
+      - "20251010"
+      - "20251014"
+      - "20251015"
+      - "20251016"
+      - "20251021"
+      - "20251024"
+      - "20251025"
+      - "20251030"
+      - "20251114"
+      - "20251118"
+      - "20251126"
+      - "20251129"
+      - "20251202"
+      - "20251204"
+      - "20251209"
+      - "20251213"
+      - "20251216"
+      - "20251220"
+      - "20251223"
+      - "20251224"
+      - "20251225"
+      - "20260109"
+      - "20260110"
+      - "20260115"
+      - "20260123"
+      - "20260124"
+      - "20260127"
+      - "20260130"
+      - "20260131"
+      - "20260218"
+      - "20260219"
+      - "20260220"
+      - "20260224"
+      - "20260228"
+      - "20260314"
+      - "20260317"
+      - "20260324"
+      - "20260325"
+      - "20260327"
+      - "20260328"
+      - "20260401"
+      - "20260407"
+      - "20260409"
+      - "20260411"
+      - "20260414"
+      - "20260415"
+      - "20260417"
+      - "20260418"
+      - "20260421"
+      - "20260424"
+      - "20260501"
+      - "20260505"
+      - "20260506"
+      - "20260508"
+      - "20260513"
+      - "20260515"
+      - "20260516"
+      - "20260522"
+      - "20260604"
+      - "20260605"
+      - "20260609"
+      - "20260610"
+      - "20260612"
+      - "20260613"
+      - "20260614"
+      - "20260615"
+      - "20260616"
+  "du_val_1d":
+    english_full_name: "Daily Update Trading Value 1-Day"
+    korean_name: "1일거래대금"
+    count: 5353
+    null_count: 10
+  "du_vol_1d":
+    english_full_name: "Daily Update Trading Volume 1-Day"
+    korean_name: "1일거래량"
+    count: 4853
+    null_count: 10
+  "pd_abrv_nm":
+    english_full_name: "Product Abbreviated Name"
+    korean_name: "상품약어명"
+    count: 5641
+    null_count: 0
+  "pd_curr_cd":
+    english_full_name: "Product Currency Code"
+    korean_name: "상품통화코드"
+    count: 3
+    null_count: 8
+    values:
+      - null
+      - "INR"
+      - "USD"
+  "pd_exg_mkt_cd":
+    english_full_name: "Product Exchange Market Code"
+    korean_name: "거래소시장코드"
+    count: 5
+    null_count: 0
+    values:
+      - "101"
+      - "102"
+      - "AMX"
+      - "NAS"
+      - "NYS"
+  "pd_grp_no":
+    english_full_name: "Product Group Number"
+    korean_name: "상품군번호"
+    count: 2
+    null_count: 0
+    values:
+      - "ETF"
+      - "ETN"
+  "pd_isin_cd":
+    english_full_name: "Product ISIN Code"
+    korean_name: "ISIN코드"
+    count: 5588
+    null_count: 9
+  "pd_itm_no":
+    english_full_name: "Product Item Number"
+    korean_name: "상품번호"
+    count: 5646
+    null_count: 0
+  "pd_itm_no_ma":
+    english_full_name: "Mirae Asset Product Number"
+    korean_name: "미래에셋상품번호"
+    count: 5646
+    null_count: 0
+  "pd_lipper_id":
+    english_full_name: "Product Lipper Identifier"
+    korean_name: "리퍼펀드식별자"
+    count: 5589
+    null_count: 8
+  "pd_lstg_dt":
+    english_full_name: "Product Listing Date"
+    korean_name: "상장일자"
+    count: 1956
+    null_count: 0
+  "pd_lst_price":
+    english_full_name: "Product Listed Price"
+    korean_name: "상장가격"
+    count: 3
+    null_count: 10
+    values:
+      - null
+      - "0.01000000"
+      - "0E-8"
+  "pd_lst_stk_cnt":
+    english_full_name: "Product Listed Share Count"
+    korean_name: "상장주식수"
+    count: 3105
+    null_count: 0
+  "pd_mkt_id":
+    english_full_name: "Product Market Identifier"
+    korean_name: "시장식별자"
+    count: 1
+    null_count: 0
+    values:
+      - "US"
+  "pd_nm":
+    english_full_name: "Product Name"
+    korean_name: "상품명"
+    count: 5630
+    null_count: 0
+  "pd_sale_yn":
+    english_full_name: "Product Sale Indicator"
+    korean_name: "상품판매여부"
+    count: 2
+    null_count: 10
+    values:
+      - null
+      - "1"
+  "pd_trd_ccy":
+    english_full_name: "Product Trading Currency"
+    korean_name: "거래통화"
+    count: 1
+    null_count: 0
+    values:
+      - "USD"
+  "pd_tr_yn":
+    english_full_name: "Product Trading Indicator"
+    korean_name: "상품거래가능여부"
+    count: 2
+    null_count: 10
+    values:
+      - null
+      - "0"
+  "pd_us_cik":
+    english_full_name: "Product US CIK"
+    korean_name: "미국SEC CIK"
+    count: 375
+    null_count: 13
+  "ru_mkt_price":
+    english_full_name: "Real-Time Update Market Price"
+    korean_name: "실시간시장가격"
+    count: 5102
+    null_count: 10
+  "ru_mkt_volume":
+    english_full_name: "Real-Time Update Market Volume"
+    korean_name: "실시간거래량"
+    count: 4853
+    null_count: 10
+  "wu_core_yn":
+    english_full_name: "Weekly Update Core Indicator"
+    korean_name: "핵심ETF여부"
+    count: 2
+    null_count: 5543
+    values:
+      - null
+      - "N"
+  "wu_inv_ast_type":
+    english_full_name: "Weekly Update Investment Asset Type"
+    korean_name: "투자자산유형"
+    count: 7
+    null_count: 8
+    values:
+      - null
+      - "Alternatives"
+      - "Bond"
+      - "Commodity"
+      - "Equity"
+      - "Mixed Assets"
+      - "Money Market"
+  "wu_inv_rgn":
+    english_full_name: "Weekly Update Investment Region"
+    korean_name: "투자지역"
+    count: 60
+    null_count: 8
+    values:
+      - null
+      - "Africa"
+      - "Argentina"
+      - "ASEAN"
+      - "Asia Pacific"
+      - "Asia Pacific ex Japan"
+      - "Australia"
+      - "Austria"
+      - "Belgium"
+      - "Brazil"
+      - "BRIC"
+      - "Canada"
+      - "Chile"
+      - "China"
+      - "Colombia"
+      - "Denmark"
+      - "Europe"
+      - "EuroZone"
+      - "Finland"
+      - "France"
+      - "Germany"
+      - "Global"
+      - "Global Emerging Markets"
+      - "Global Ex US"
+      - "Greater China"
+      - "Greece"
+      - "Hong Kong"
+      - "Iceland"
+      - "India"
+      - "Indonesia"
+      - "Ireland"
+      - "Israel"
+      - "Italy"
+      - "Japan"
+      - "Korea"
+      - "Kuwait"
+      - "Latin America"
+      - "Malaysia"
+      - "Mexico"
+      - "Netherlands"
+      - "New Zealand"
+      - "North America"
+      - "Norway"
+      - "Peru"
+      - "Philippines"
+      - "Poland"
+      - "Qatar"
+      - "Saudi Arabia"
+      - "Singapore"
+      - "South Africa"
+      - "Spain"
+      - "Sweden"
+      - "Switzerland"
+      - "Taiwan"
+      - "Thailand"
+      - "Turkey"
+      - "United Arab Emirates"
+      - "United Kingdom"
+      - "United States of America"
+      - "Vietnam"
+  "wu_upt_dt":
+    english_full_name: "Weekly Information Update Date"
+    korean_name: "주간정보갱신일자"
+    count: 1
+    null_count: 0
+    values:
+      - "20260614"
+"공모펀드":
+  "bmrk_eng_nm":
+    english_full_name: "Benchmark English Name"
+    korean_name: "벤치마크영문명"
+    count: 388
+    null_count: 0
+  "bmrk_nm":
+    english_full_name: "Benchmark Name"
+    korean_name: "벤치마크명"
+    count: 391
+    null_count: 0
+  "curr_cd":
+    english_full_name: "Currency Code"
+    korean_name: "통화코드"
+    count: 3
+    null_count: 1
+    values:
+      - null
+      - "KRW"
+      - "USD"
+  "exchdg_yn":
+    english_full_name: "Currency Hedge Indicator"
+    korean_name: "환헤지여부"
+    count: 4
+    null_count: 29761
+    values:
+      - null
+      - "00080008"
+      - "N"
+      - "Y"
+  "fd_estb_ctry_cd":
+    english_full_name: "Fund Establishment Country Code"
+    korean_name: "펀드설립국가코드"
+    count: 3
+    null_count: 66
+    values:
+      - null
+      - "000"
+      - "410"
+  "fd_ivst_rgn_desc":
+    english_full_name: "Fund Investment Region Description"
+    korean_name: "펀드투자지역구분코드 설명"
+    count: 8
+    null_count: 66
+    values:
+      - null
+      - "국내"
+      - "글로벌"
+      - "남미/북미"
+      - "아시아"
+      - "유럽"
+      - "이머징/브릭스"
+      - "중동/아프리카"
+  "fd_mm18_ern_r":
+    english_full_name: "Fund 18-Month Return Rate"
+    korean_name: "펀드 18개월수익률"
+    count: 4910
+    null_count: 32411
+  "fd_mm1_ern_r":
+    english_full_name: "Fund 1-Month Return Rate"
+    korean_name: "펀드 1개월수익률"
+    count: 1551
+    null_count: 26429
+  "fd_mm3_ern_r":
+    english_full_name: "Fund 3-Month Return Rate"
+    korean_name: "펀드 3개월수익률"
+    count: 3506
+    null_count: 27076
+  "fd_mm6_ern_r":
+    english_full_name: "Fund 6-Month Return Rate"
+    korean_name: "펀드 6개월수익률"
+    count: 4178
+    null_count: 28450
+  "fd_nast_suma":
+    english_full_name: "Fund Net Asset Total Amount"
+    korean_name: "펀드 순자산"
+    count: 2683
+    null_count: 12538
+  "fd_set_pcd":
+    english_full_name: "Fund Setup Pattern Code"
+    korean_name: "펀드설정유형코드"
+    count: 4
+    null_count: 1
+    values:
+      - null
+      - "00"
+      - "10"
+      - "20"
+  "fd_wk1_ern_r":
+    english_full_name: "Fund 1-Week Return Rate"
+    korean_name: "펀드 1주일수익률"
+    count: 1208
+    null_count: 26167
+  "fd_yr1_ern_r":
+    english_full_name: "Fund 1-Year Return Rate"
+    korean_name: "펀드 1년수익률"
+    count: 4827
+    null_count: 31193
+  "fd_yr2_ern_r":
+    english_full_name: "Fund 2-Year Return Rate"
+    korean_name: "펀드 2년수익률"
+    count: 4778
+    null_count: 37490
+  "fd_yr3_ern_r":
+    english_full_name: "Fund 3-Year Return Rate"
+    korean_name: "펀드 3년수익률"
+    count: 4926
+    null_count: 39806
+  "fd_yr5_ern_r":
+    english_full_name: "Fund 5-Year Return Rate"
+    korean_name: "펀드 5년수익률"
+    count: 4700
+    null_count: 44782
+  "frc_bpr_itm_yn":
+    english_full_name: "Foreign Currency Base Price Item Indicator"
+    korean_name: "외화기준가종목여부"
+    count: 3
+    null_count: 1
+    values:
+      - null
+      - "0"
+      - "1"
+  "fss_itm_no":
+    english_full_name: "Financial Supervisory Service Item Number"
+    korean_name: "금융감독원종목번호"
+    count: 8087
+    null_count: 1
+  "hdge_fd_yn":
+    english_full_name: "Hedge Fund Indicator"
+    korean_name: "헤지펀드여부"
+    count: 2
+    null_count: 66
+    values:
+      - null
+      - "0"
+  "int_dvd_desc":
+    english_full_name: "Interest and Dividend Classification Description"
+    korean_name: "이자배당구분코드 설명"
+    count: 3
+    null_count: 66
+    values:
+      - null
+      - "배당"
+      - "이자"
+  "itm_abrv_nm":
+    english_full_name: "Item Abbreviated Name"
+    korean_name: "종목약어명"
+    count: 11119
+    null_count: 0
+  "itm_eabrv_nm":
+    english_full_name: "Item English Abbreviated Name"
+    korean_name: "종목영문약어명"
+    count: 15
+    null_count: 95447
+    values:
+      - null
+      - "Dream auto plus"
+      - "DWS DeutschEquity A"
+      - "DWS DeutschEquity C1"
+      - "DWS DeutschEquity C2"
+      - "DWS DeutschEquity C3"
+      - "DWS DeutschEquity C4"
+      - "KB China A-share Sec"
+      - "MIRAE G2 INNOVATOR F"
+      - "MIRAE G2INNOVATOR_C1"
+      - "MIRAE G2INNOVATOR_C2"
+      - "MIRAE G2INNOVATOR_Ce"
+      - "MIRAE GL-GROWTH A"
+      - "MIRAE GL-GROWTH F"
+      - "배당"
+  "itm_eng_nm":
+    english_full_name: "Item English Name"
+    korean_name: "종목영문명"
+    count: 10971
+    null_count: 0
+  "itm_nm":
+    english_full_name: "Item Name"
+    korean_name: "종목명"
+    count: 11139
+    null_count: 0
+  "itm_no":
+    english_full_name: "Item Number"
+    korean_name: "종목번호"
+    count: 11139
+    null_count: 0
+  "kofia_fd_ccd":
+    english_full_name: "KOFIA Fund Classification Code"
+    korean_name: "금융투자협회펀드분류코드"
+    count: 4783
+    null_count: 94
+  "ksd_itm_no":
+    english_full_name: "KSD Item Number"
+    korean_name: "예탁원종목번호"
+    count: 11093
+    null_count: 266
+  "mtco_itm_no":
+    english_full_name: "Management Company Item Number"
+    korean_name: "운용사종목번호"
+    count: 4661
+    null_count: 1
+  "ofsfd_yn":
+    english_full_name: "Offshore Fund Indicator"
+    korean_name: "역외펀드여부"
+    count: 2
+    null_count: 1
+    values:
+      - null
+      - "0"
+  "or_attr_desc":
+    english_full_name: "Operation Attribute Description"
+    korean_name: "운용속성구분코드 설명"
+    count: 12
+    null_count: 66
+    values:
+      - null
+      - "06"
+      - "MMF"
+      - "대출형"
+      - "임대형"
+      - "재간접"
+      - "주식형"
+      - "주식혼합"
+      - "채권형"
+      - "채권혼합"
+      - "특별자산"
+      - "혼합자산"
+  "or_co_xtn_itt_cd":
+    english_full_name: "Management Company External Institution Code"
+    korean_name: "운용회사대외기관코드"
+    count: 68
+    null_count: 66
+    values:
+      - null
+      - "00040001"
+      - "00040004"
+      - "00040005"
+      - "00040006"
+      - "00040007"
+      - "00040010"
+      - "00040011"
+      - "00040013"
+      - "00040014"
+      - "00040016"
+      - "00040018"
+      - "00040021"
+      - "00040022"
+      - "00040023"
+      - "00040024"
+      - "00040026"
+      - "00040027"
+      - "00040035"
+      - "00040038"
+      - "00040040"
+      - "00040067"
+      - "00040084"
+      - "00040087"
+      - "00040105"
+      - "00080002"
+      - "00080003"
+      - "00080005"
+      - "00080006"
+      - "00080007"
+      - "00080008"
+      - "00080010"
+      - "00080013"
+      - "00080015"
+      - "00080016"
+      - "00080017"
+      - "00080018"
+      - "00080019"
+      - "00080021"
+      - "00080022"
+      - "00080026"
+      - "00080029"
+      - "00080030"
+      - "00080031"
+      - "00080032"
+      - "00080033"
+      - "00080034"
+      - "00080035"
+      - "00080041"
+      - "00080042"
+      - "00080043"
+      - "00080048"
+      - "00080052"
+      - "00080056"
+      - "00080062"
+      - "00080086"
+      - "00080087"
+      - "00080127"
+      - "00080135"
+      - "00080157"
+      - "00080159"
+      - "00080162"
+      - "00080204"
+      - "00080208"
+      - "00080248"
+      - "00080333"
+      - "00080359"
+      - "00080368"
+  "ovrs_fd_desc":
+    english_full_name: "Overseas Fund Description"
+    korean_name: "해외펀드구분코드 설명"
+    count: 4
+    null_count: 66
+    values:
+      - null
+      - "국내"
+      - "국내외혼합"
+      - "해외"
+  "pers_corp_desc":
+    english_full_name: "Individual Corporate Description"
+    korean_name: "개인법인구분코드 설명"
+    count: 4
+    null_count: 66
+    values:
+      - null
+      - "개인"
+      - "법인"
+      - "해당없음"
+  "pfiv_sale_cntl_tcd":
+    english_full_name: "Professional Investor Sale Control Type Code"
+    korean_name: "전문투자자판매제어구분코드"
+    count: 4
+    null_count: 66
+    values:
+      - null
+      - "00"
+      - "01"
+      - "02"
+  "prfd_attr_cd":
+    english_full_name: "Fund-Specific Attribute Code"
+    korean_name: "펀드별속성코드"
+    count: 228
+    null_count: 0
+  "prvo_fd_desc":
+    english_full_name: "Private Fund Description"
+    korean_name: "사모펀드구분코드 설명"
+    count: 3
+    null_count: 66
+    values:
+      - null
+      - "일반사모(2015년전)"
+      - "해당없음"
+  "prvo_pbff_desc":
+    english_full_name: "Private or Public Fund Classification Description"
+    korean_name: "사모/공모구분코드 설명"
+    count: 3
+    null_count: 66
+    values:
+      - null
+      - "공모"
+      - "사모"
+  "rptt_ksd_itm_no":
+    english_full_name: "Representative KSD Item Number"
+    korean_name: "대표예탁원종목번호"
+    count: 2629
+    null_count: 66
+  "sale_yn":
+    english_full_name: "Sale Indicator"
+    korean_name: "판매여부"
+    count: 3
+    null_count: 1
+    values:
+      - null
+      - "판매완료"
+      - "판매중"
+  "std_itm_no":
+    english_full_name: "Standard Item Number"
+    korean_name: "표준종목번호"
+    count: 11128
+    null_count: 66
+  "thco_sale_yn":
+    english_full_name: "Our Company Sale Indicator"
+    korean_name: "당사판매여부"
+    count: 3
+    null_count: 4024
+    values:
+      - null
+      - "KRZ50226929C"
+      - "Y"
+  "trusc_xtn_itt_cd":
+    english_full_name: "Trustee Company External Institution Code"
+    korean_name: "수탁회사대외기관코드"
+    count: 19
+    null_count: 66
+    values:
+      - null
+      - "00020002"
+      - "00020003"
+      - "00020004"
+      - "00020011"
+      - "00020020"
+      - "00020023"
+      - "00020027"
+      - "00020032"
+      - "00020054"
+      - "00020055"
+      - "00020081"
+      - "00020088"
+      - "00050004"
+      - "00160005"
+      - "00160006"
+      - "00160036"
+      - "00160037"
+      - "0016022"
+  "zrin_fd_ivst_risk_gcd":
+    english_full_name: "Zeroin Fund Investment Risk Grade Code"
+    korean_name: "제로인펀드투자위험등급코드"
+    count: 8
+    null_count: 0
+    values:
+      - "00020054"
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+      - "NULL"
+  "zrin_fd_ivst_risk_grd_nm":
+    english_full_name: "Zeroin Fund Investment Risk Grade Name"
+    korean_name: "제로인펀드투자위험등급명"
+    count: 10
+    null_count: 18416
+    values:
+      - null
+      - "06"
+      - "낮은 위험"
+      - "높은 위험"
+      - "높은위험"
+      - "다소 높은 위험"
+      - "매우 낮은 위험"
+      - "매우 높은 위험"
+      - "보통 위험"
+      - "보통위험"

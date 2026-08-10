@@ -1,0 +1,41 @@
+﻿컬럼명,컬럼한글명,컬럼값 예시,컬럼영문풀네임,고유값 개수,NULL값 개수,PK/FK,컬럼타입
+PD_NO,상품번호,KR101501DA16,Product Number,42394,0,,text
+PD_EXG_MKT,상품거래시장,장내,Product Exchange Market,2,0,,text
+PD_NM,상품명,국민주택1종채권 20-01,Product Name,42284,0,,text
+PD_ABRV_NM,상품약어명,국민주택1종20-01,Product Abbreviated Name,42011,365,,text
+PD_ENG_NM,상품영문명,KOREA NATIONAL HOUSING BOND (Ⅰ)20-01,Product English Name,42046,324,,text
+PD_ABRV_ENG_NM,상품영문약어명,KNHB (Ⅰ)20-01,Product Abbreviated English Name,41996,370,,text
+PD_CTRY_CD,상품국가코드,KR,Product Country Code,2,0,,text
+PD_PBCM,발행기관,대한민국,Product Issuer,8019,918,,text
+STD_PD_MCLS_NM,표준상품중분류명,국공채,Standard Product Middle Classification Name,6,0,,text
+STD_PD_SCLS_NM,표준상품소분류명,국민주택,Standard Product Small Classification Name,17,13,,text
+BD_KND,채권종류,국민주택1종,Bond Type,40,924,,text
+CURR_CD,통화코드,KRW,Currency Code,5,0,,text
+ISU_BAL_AMT,발행잔액,1397549160000,Issue Balance Amount,4452,0,,double precision
+ISU_DT,발행일자,20200131,Issue Date,3147,3,,double precision
+MAT_DT,만기일자,20250131,Maturity Date,5352,3,,double precision
+SRFC_IRT,표면금리,1,Coupon Interest Rate,5677,2,,double precision
+PD_EVCO_CRD_GRD,평가회사신용등급,"AAA, AAA, AAA",Product Evaluation Company Credit Grade,101,17428,,text
+PD_RISK_GCD,상품위험등급코드,6,Product Risk Grade Code,7,0,,bigint
+PD_STD_INFO_UPDATE,상품기준정보갱신일자,20250203,Product Standard Information Update Date,911,10571,,double precision
+BUY_YIELD,매수수익률,3.2,Purchase Yield,540,41513,,double precision
+CORP_PRETAX_YIELD,법인세전수익률,3.1986,Corporate Pre-Tax Yield,830,41513,,double precision
+CORP_AFTER_TAX_YIELD,법인세후수익률,3.0415,Corporate After Tax Yield,830,41513,,double precision
+AFTER_TAX_YIELD,세후수익률,3.0415,After Tax Yield,829,41513,,double precision
+PREF_TAX_YIELD,우대세율적용수익률,3.1017,Preferential Tax Yield,837,41513,,double precision
+AVG_ANNUAL_TAX_YIELD,연평균세후수익률,0,Average Annual Tax Yield,2,41513,,double precision
+DEPO_EQUIV_YIELD_154,예금환산수익률(세율 15.4%),3.5952,Deposit-Equivalent Yield at 15.4% Tax Rate,829,41513,,double precision
+BUYABLE_QUANTITY,매수가능수량,27568000,Purchasable Quantity,296,41513,,double precision
+REMAINING_DAYS,잔존일수,0,Remaining Days,3943,10645,,double precision
+DUR,듀레이션,0,Duration,14851,13376,,double precision
+COV,컨벡서티,0,Convexity,16188,13376,,double precision
+NDY_DUR,익일듀레이션,0,Next-Day Duration,14607,13376,,double precision
+NDY_COV,익일컨벡서티,0,Next-Day Convexity,15941,13376,,double precision
+EVAL_PRICE,평가가격,10510,Evaluation Price,20313,10571,,double precision
+APPLIED_YIELD,적용수익률,2.834,Applied Yield,3852,10571,,double precision
+DIRTY,경과이자포함가격,10510,Dirty Price,19665,13376,,double precision
+NDY_EVAL_PRICE,익일평가가격,0,Next-Day Evaluation Price,16427,13376,,double precision
+NDY_APPLIED_YIELD,익일적용수익률,0,Next-Day Applied Yield,2945,13376,,double precision
+NDY_DIRTY,익일경과이자포함가격,0,Next-Day Dirty Price,16381,13376,,double precision
+CRD_GRD,신용등급,AAA,Credit Grade,21,17644,,text
+CRD_GRD_DT,신용등급평가일자,20251113,Credit Grade Date,2319,14829,,double precision

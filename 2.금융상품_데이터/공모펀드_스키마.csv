@@ -1,0 +1,46 @@
+﻿컬럼명,컬럼한글명,컬럼값 예시,컬럼영문풀네임,고유값 개수,NULL값 개수,PK/FK,컬럼타입
+bmrk_eng_nm,벤치마크영문명,채권종합 3M~1Y,Benchmark English Name,388,0,,text
+bmrk_nm,벤치마크명,종합채권 3개월~1년,Benchmark Name,391,0,,text
+curr_cd,통화코드,KRW,Currency Code,3,1,,text
+exchdg_yn,환헤지여부,Y,Currency Hedge Indicator,4,29761,,text
+fd_estb_ctry_cd,펀드설립국가코드,0,Fund Establishment Country Code,3,66,,text
+fd_ivst_rgn_desc,펀드투자지역구분코드 설명,국내,Fund Investment Region Description,8,66,,text
+fd_mm18_ern_r,펀드 18개월수익률,47.08,Fund 18-Month Return Rate,4910,32411,,numeric
+fd_mm1_ern_r,펀드 1개월수익률,1.18,Fund 1-Month Return Rate,1551,26429,,numeric
+fd_mm3_ern_r,펀드 3개월수익률,16.29,Fund 3-Month Return Rate,3506,27076,,numeric
+fd_mm6_ern_r,펀드 6개월수익률,25.97,Fund 6-Month Return Rate,4178,28450,,numeric
+fd_nast_suma,펀드 순자산,77291400582.0000,Fund Net Asset Total Amount,2683,12538,,numeric
+fd_set_pcd,펀드설정유형코드,20,Fund Setup Pattern Code,4,1,,text
+fd_wk1_ern_r,펀드 1주일수익률,2.55,Fund 1-Week Return Rate,1208,26167,,numeric
+fd_yr1_ern_r,펀드 1년수익률,38.17,Fund 1-Year Return Rate,4827,31193,,numeric
+fd_yr2_ern_r,펀드 2년수익률,43.25,Fund 2-Year Return Rate,4778,37490,,numeric
+fd_yr3_ern_r,펀드 3년수익률,60.31,Fund 3-Year Return Rate,4926,39806,,numeric
+fd_yr5_ern_r,펀드 5년수익률,49.37,Fund 5-Year Return Rate,4700,44782,,numeric
+frc_bpr_itm_yn,외화기준가종목여부,0,Foreign Currency Base Price Item Indicator,3,1,,text
+fss_itm_no,금융감독원종목번호,0010173C9824,Financial Supervisory Service Item Number,8087,1,,text
+hdge_fd_yn,헤지펀드여부,0,Hedge Fund Indicator,2,66,,text
+int_dvd_desc,이자배당구분코드 설명,배당,Interest and Dividend Classification Description,3,66,,text
+itm_abrv_nm,종목약어명,삼성1.5년매칭형증권투자제1호[채권]C-P,Item Abbreviated Name,11119,0,,text
+itm_eabrv_nm,종목영문약어명,MIRAE G2INNOVATOR_C1,Item English Abbreviated Name,15,95447,,text
+itm_eng_nm,종목영문명,삼성1.5년매칭형증권투자신탁제1호[채권]_C-P,Item English Name,10971,0,,text
+itm_nm,종목명,삼성1.5년매칭형증권투자신탁제1호[채권]_C-P,Item Name,11139,0,,text
+itm_no,종목번호,KR5114420158,Item Number,11139,0,PK,text
+kofia_fd_ccd,금융투자협회펀드분류코드,11111A327360131ZZZZ5,KOFIA Fund Classification Code,4783,94,,text
+ksd_itm_no,예탁원종목번호,KRZ502532813,KSD Item Number,11093,266,,text
+mtco_itm_no,운용사종목번호,01MN900,Management Company Item Number,4661,1,,text
+ofsfd_yn,역외펀드여부,0,Offshore Fund Indicator,2,1,,text
+or_attr_desc,운용속성구분코드 설명,채권형,Operation Attribute Description,12,66,,text
+or_co_xtn_itt_cd,운용회사대외기관코드,40010,Management Company External Institution Code,68,66,,text
+ovrs_fd_desc,해외펀드구분코드 설명,국내,Overseas Fund Description,4,66,,text
+pers_corp_desc,개인법인구분코드 설명,개인,Individual Corporate Description,4,66,,text
+pfiv_sale_cntl_tcd,전문투자자판매제어구분코드,0,Professional Investor Sale Control Type Code,4,66,,text
+prfd_attr_cd,펀드별속성코드,F103,Fund-Specific Attribute Code,228,0,PK,text
+prvo_fd_desc,사모펀드구분코드 설명,해당없음,Private Fund Description,3,66,,text
+prvo_pbff_desc,사모/공모구분코드 설명,공모,Private or Public Fund Classification Description,3,66,,text
+rptt_ksd_itm_no,대표예탁원종목번호,0302001MN900,Representative KSD Item Number,2629,66,,text
+sale_yn,판매여부,판매완료,Sale Indicator,3,1,,text
+std_itm_no,표준종목번호,K55105DY4714,Standard Item Number,11128,66,,text
+thco_sale_yn,당사판매여부,Y,Our Company Sale Indicator,3,4024,,text
+trusc_xtn_itt_cd,수탁회사대외기관코드,20054,Trustee Company External Institution Code,19,66,,text
+zrin_fd_ivst_risk_gcd,제로인펀드투자위험등급코드,NULL,Zeroin Fund Investment Risk Grade Code,8,0,PK,text
+zrin_fd_ivst_risk_grd_nm,제로인펀드투자위험등급명,보통 위험,Zeroin Fund Investment Risk Grade Name,10,18416,,text

@@ -1,0 +1,10 @@
+[project]
+name = "financial-product-agents"
+version = "0.1.0"
+description = "금융상품 데이터 기반 모듈형 Agent 프로토타입"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
