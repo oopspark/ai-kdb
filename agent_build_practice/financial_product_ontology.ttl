@@ -1,0 +1,21 @@
+@prefix fp: <https://example.org/financial-product/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# 상품 분류 계층
+fp:FinancialProduct a rdfs:Class ; rdfs:label "금융상품"@ko .
+fp:Bond a rdfs:Class ; rdfs:subClassOf fp:FinancialProduct ; rdfs:label "채권"@ko .
+fp:ETF a rdfs:Class ; rdfs:subClassOf fp:FinancialProduct ; rdfs:label "ETF"@ko .
+fp:Fund a rdfs:Class ; rdfs:subClassOf fp:FinancialProduct ; rdfs:label "펀드"@ko .
+fp:DomesticBond a rdfs:Class ; rdfs:subClassOf fp:Bond ; rdfs:label "국내채권"@ko .
+fp:DomesticETF a rdfs:Class ; rdfs:subClassOf fp:ETF ; rdfs:label "국내 ETF"@ko .
+fp:OverseasETF a rdfs:Class ; rdfs:subClassOf fp:ETF ; rdfs:label "해외 ETF"@ko .
+fp:PublicFund a rdfs:Class ; rdfs:subClassOf fp:Fund ; rdfs:label "공모펀드"@ko .
+
+# 검색에 사용하는 핵심 속성
+fp:hasManager a rdf:Property ; rdfs:label "운용사"@ko .
+fp:hasRegion a rdf:Property ; rdfs:label "투자지역"@ko .
+fp:hasFee a rdf:Property ; rdfs:label "총보수"@ko .
+fp:hasAum a rdf:Property ; rdfs:label "순자산"@ko .
+fp:hasReturn a rdf:Property ; rdfs:label "수익률"@ko .
+fp:hasEvidence a rdf:Property ; rdfs:label "근거"@ko .
